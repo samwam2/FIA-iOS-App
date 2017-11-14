@@ -15,6 +15,7 @@
 		822C1AE81F9581CE00FC38D1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 822C1AE61F9581CE00FC38D1 /* LaunchScreen.storyboard */; };
 		822C1AF31F9581CE00FC38D1 /* FrickImpactAcademyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 822C1AF21F9581CE00FC38D1 /* FrickImpactAcademyTests.swift */; };
 		822C1AFE1F9581CF00FC38D1 /* FrickImpactAcademyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 822C1AFD1F9581CF00FC38D1 /* FrickImpactAcademyUITests.swift */; };
+		82515A8D1FBA6E9300F7380D /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82515A8C1FBA6E8700F7380D /* WebKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,8 @@
 		822C1AF91F9581CF00FC38D1 /* FrickImpactAcademyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FrickImpactAcademyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		822C1AFD1F9581CF00FC38D1 /* FrickImpactAcademyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrickImpactAcademyUITests.swift; sourceTree = "<group>"; };
 		822C1AFF1F9581CF00FC38D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		82515A8C1FBA6E8700F7380D /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		82515A8E1FBA6E9B00F7380D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				82515A8D1FBA6E9300F7380D /* WebKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +87,7 @@
 				822C1AF11F9581CE00FC38D1 /* FrickImpactAcademyTests */,
 				822C1AFC1F9581CF00FC38D1 /* FrickImpactAcademyUITests */,
 				822C1AD91F9581CE00FC38D1 /* Products */,
+				82515A8B1FBA6E8600F7380D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -126,6 +131,15 @@
 				822C1AFF1F9581CF00FC38D1 /* Info.plist */,
 			);
 			path = FrickImpactAcademyUITests;
+			sourceTree = "<group>";
+		};
+		82515A8B1FBA6E8600F7380D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				82515A8E1FBA6E9B00F7380D /* UIKit.framework */,
+				82515A8C1FBA6E8700F7380D /* WebKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -430,6 +444,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 25Y72JH26L;
 				INFOPLIST_FILE = FrickImpactAcademy/Info.plist;
@@ -437,7 +452,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = samShowalter.FrickImpactAcademy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -445,6 +460,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 25Y72JH26L;
 				INFOPLIST_FILE = FrickImpactAcademy/Info.plist;
@@ -452,7 +468,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = samShowalter.FrickImpactAcademy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
