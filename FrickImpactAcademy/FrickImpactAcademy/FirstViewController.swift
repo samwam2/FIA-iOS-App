@@ -20,6 +20,7 @@ class FirstViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+    //Hides the status bar from the user
     override var prefersStatusBarHidden: Bool {
        return true
     }
