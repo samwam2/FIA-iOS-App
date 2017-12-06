@@ -15,7 +15,11 @@
 		822C1AE81F9581CE00FC38D1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 822C1AE61F9581CE00FC38D1 /* LaunchScreen.storyboard */; };
 		822C1AF31F9581CE00FC38D1 /* FrickImpactAcademyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 822C1AF21F9581CE00FC38D1 /* FrickImpactAcademyTests.swift */; };
 		822C1AFE1F9581CF00FC38D1 /* FrickImpactAcademyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 822C1AFD1F9581CF00FC38D1 /* FrickImpactAcademyUITests.swift */; };
+		8242E4881FD616EA00107B88 /* calendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8242E4871FD616EA00107B88 /* calendarViewController.swift */; };
+		8242E48C1FD61B6000107B88 /* parnentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8242E48B1FD61B6000107B88 /* parnentViewController.swift */; };
 		82515A8D1FBA6E9300F7380D /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82515A8C1FBA6E8700F7380D /* WebKit.framework */; };
+		8291E0671FD222BF009CA9A9 /* AnytonyCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8291E0661FD222BF009CA9A9 /* AnytonyCode.swift */; };
+		8291E0691FD23176009CA9A9 /* calendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8291E0681FD23176009CA9A9 /* calendarView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,8 +54,12 @@
 		822C1AF91F9581CF00FC38D1 /* FrickImpactAcademyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FrickImpactAcademyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		822C1AFD1F9581CF00FC38D1 /* FrickImpactAcademyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrickImpactAcademyUITests.swift; sourceTree = "<group>"; };
 		822C1AFF1F9581CF00FC38D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8242E4871FD616EA00107B88 /* calendarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = calendarViewController.swift; sourceTree = "<group>"; };
+		8242E48B1FD61B6000107B88 /* parnentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = parnentViewController.swift; sourceTree = "<group>"; };
 		82515A8C1FBA6E8700F7380D /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 		82515A8E1FBA6E9B00F7380D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		8291E0661FD222BF009CA9A9 /* AnytonyCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnytonyCode.swift; sourceTree = "<group>"; };
+		8291E0681FD23176009CA9A9 /* calendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = calendarView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,7 +115,11 @@
 				822C1ADB1F9581CE00FC38D1 /* AppDelegate.swift */,
 				822C1ADD1F9581CE00FC38D1 /* FirstViewController.swift */,
 				822C1ADF1F9581CE00FC38D1 /* SecondViewController.swift */,
+				8291E0661FD222BF009CA9A9 /* AnytonyCode.swift */,
 				822C1AE11F9581CE00FC38D1 /* Main.storyboard */,
+				8242E4871FD616EA00107B88 /* calendarViewController.swift */,
+				8291E0681FD23176009CA9A9 /* calendarView.swift */,
+				8242E48B1FD61B6000107B88 /* parnentViewController.swift */,
 				822C1AE41F9581CE00FC38D1 /* Assets.xcassets */,
 				822C1AE61F9581CE00FC38D1 /* LaunchScreen.storyboard */,
 				822C1AE91F9581CE00FC38D1 /* Info.plist */,
@@ -276,8 +288,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8242E48C1FD61B6000107B88 /* parnentViewController.swift in Sources */,
 				822C1AE01F9581CE00FC38D1 /* SecondViewController.swift in Sources */,
+				8291E0691FD23176009CA9A9 /* calendarView.swift in Sources */,
+				8291E0671FD222BF009CA9A9 /* AnytonyCode.swift in Sources */,
 				822C1ADC1F9581CE00FC38D1 /* AppDelegate.swift in Sources */,
+				8242E4881FD616EA00107B88 /* calendarViewController.swift in Sources */,
 				822C1ADE1F9581CE00FC38D1 /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

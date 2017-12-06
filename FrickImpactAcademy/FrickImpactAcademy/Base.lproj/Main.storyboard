@@ -89,7 +89,68 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4Nw-L8-lE0" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="749.60000000000002" y="359.37031484257875"/>
+            <point key="canvasLocation" x="750" y="423"/>
+        </scene>
+        <!--Parnent-->
+        <scene sceneID="Jc0-To-dHC">
+            <objects>
+                <viewController id="nn0-TG-Ne1" customClass="parnentViewController" customModule="FrickImpactAcademy" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="h6k-Ow-F5X">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Backgound" translatesAutoresizingMaskIntoConstraints="NO" id="n9y-Dm-Iq4" customClass="pa">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ParentsText" translatesAutoresizingMaskIntoConstraints="NO" id="pg1-wA-ZHx">
+                                <rect key="frame" x="67" y="0.0" width="240" height="128"/>
+                                <accessibility key="accessibilityConfiguration">
+                                    <accessibilityTraits key="traits" button="YES" image="YES"/>
+                                </accessibility>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qKO-2Y-LIK">
+                                <rect key="frame" x="1" y="246" width="374" height="60"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="jupiterlogos"/>
+                                <connections>
+                                    <action selector="launchJupiter:" destination="nn0-TG-Ne1" eventType="touchUpInside" id="fsY-mZ-f5F"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="n9y-Dm-Iq4" firstAttribute="leading" secondItem="9Vb-PL-Awz" secondAttribute="leading" id="678-yH-bcb"/>
+                            <constraint firstItem="pg1-wA-ZHx" firstAttribute="leading" secondItem="9Vb-PL-Awz" secondAttribute="leading" constant="67" id="Htw-ZP-h0M"/>
+                            <constraint firstItem="pg1-wA-ZHx" firstAttribute="top" secondItem="h6k-Ow-F5X" secondAttribute="top" id="R1P-mO-8RZ"/>
+                            <constraint firstItem="n9y-Dm-Iq4" firstAttribute="trailing" secondItem="9Vb-PL-Awz" secondAttribute="trailing" id="eIG-Ds-GBD"/>
+                            <constraint firstItem="9Vb-PL-Awz" firstAttribute="trailing" secondItem="pg1-wA-ZHx" secondAttribute="trailing" constant="68" id="j1j-v8-Zad"/>
+                            <constraint firstItem="9Vb-PL-Awz" firstAttribute="bottom" secondItem="pg1-wA-ZHx" secondAttribute="bottom" constant="490" id="jFp-WD-9os"/>
+                            <constraint firstAttribute="bottom" secondItem="n9y-Dm-Iq4" secondAttribute="bottom" id="mlr-lt-pg7"/>
+                            <constraint firstItem="n9y-Dm-Iq4" firstAttribute="top" secondItem="h6k-Ow-F5X" secondAttribute="top" id="oF1-VI-3Ll"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="9Vb-PL-Awz"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Parnent" image="paraent" id="yoW-3w-9fN"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="LgL-ST-yoG" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1428" y="421.43928035982015"/>
+        </scene>
+        <!--Calendar-->
+        <scene sceneID="DGN-sX-Ae1">
+            <objects>
+                <viewController id="uar-PX-3d5" customClass="calendarView" customModule="FrickImpactAcademy" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="l0y-O9-DmK">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="jmO-CC-sMH"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Calendar" image="calender" id="iQb-0x-zE4"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="YeU-6a-iDe" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1428" y="-321"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="yl2-sM-qoP">
@@ -103,6 +164,8 @@
                     <connections>
                         <segue destination="9pv-A4-QxB" kind="relationship" relationship="viewControllers" id="u7Y-xg-7CH"/>
                         <segue destination="8rJ-Kc-sve" kind="relationship" relationship="viewControllers" id="lzU-1b-eKA"/>
+                        <segue destination="uar-PX-3d5" kind="relationship" relationship="viewControllers" id="pAh-lh-Srw"/>
+                        <segue destination="nn0-TG-Ne1" kind="relationship" relationship="viewControllers" id="qYk-mn-OWq"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HuB-VB-40B" sceneMemberID="firstResponder"/>
@@ -114,7 +177,11 @@
         <image name="Backgound" width="375" height="667"/>
         <image name="FIA" width="212" height="89"/>
         <image name="OUSD Logo" width="316" height="86"/>
+        <image name="ParentsText" width="207" height="86"/>
+        <image name="calender" width="50" height="50"/>
         <image name="directory" width="50" height="50"/>
         <image name="home" width="48" height="46"/>
+        <image name="jupiterlogos" width="363" height="64"/>
+        <image name="paraent" width="50" height="50"/>
     </resources>
 </document>

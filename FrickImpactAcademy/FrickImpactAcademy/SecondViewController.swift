@@ -25,7 +25,7 @@ class SecondViewController: UIViewController, WKUIDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let myURL = URL(string: "https://www.apple.com")
+        let myURL = URL(string: "https://www.ousd.org/Page/14482")
         let myRequest = URLRequest(url: myURL!)
         webView.load(myRequest)
     }
@@ -40,23 +40,23 @@ class SecondViewController: UIViewController, WKUIDelegate {
     }
 }
 
-import UIKit
-import WebKit
-class ViewController: UIViewController, WKUIDelegate {
-    
-    var webView: WKWebView!
-    
-    override func loadView() {
-        let webConfiguration = WKWebViewConfiguration()
-        webView = WKWebView(frame: .zero, configuration: webConfiguration)
-        webView.uiDelegate = self
-        view = webView
-    }
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        
-        let myURL = URL(string: "https://www.apple.com")
-        let myRequest = URLRequest(url: myURL!)
-        webView.load(myRequest)
-    }}
-
+//import UIKit
+//import WebKit
+//class ViewController: UIViewController, WKUIDelegate {
+//
+//    var webView: WKWebView!
+//
+//    override func loadView() {
+//        let webConfiguration = WKWebViewConfiguration()
+//        webView = WKWebView(frame: .zero, configuration: webConfiguration)
+//        webView.uiDelegate = self
+//        view = webView
+//    }
+//    override func viewDidLoad() {
+//        super.viewDidLoad()
+//
+//        let myURL = URL(string: "https://www.apple.com")
+//        let myRequest = URLRequest(url: myURL!)
+//        webView.load(myRequest)
+//    }}
+//
