@@ -10,14 +10,21 @@ import Foundation
 import UIKit
 
 class parnentViewController: UIViewController {
-  var webView: WKWebView!
+  
+   
     @IBAction func launchJupiter(_ sender: Any) {
+  open(scheme: "https://login.jupitered.com/login/")
         
-        
+    }
+    
+    
+    @IBAction func launchhero(_ sender: Any) {
+    open(scheme: "https://access.heropowered.com")
     }
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
     }
     
     override func didReceiveMemoryWarning() {
@@ -30,6 +37,20 @@ class parnentViewController: UIViewController {
         return true
     }
     
+    func open(scheme: String) {
+        if let url = URL(string: scheme) {
+            if #available(iOS 10, *) {
+                UIApplication.shared.open(url, options: [:],
+                                          completionHandler: {
+                                            (success) in
+                                            print("Open \(scheme): \(success)")
+                })
+            } else {
+                let success = UIApplication.shared.openURL(url)
+                print("Open \(scheme): \(success)")
+            }
+        }
+    }
 
     
     

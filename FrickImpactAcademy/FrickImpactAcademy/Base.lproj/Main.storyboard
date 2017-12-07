@@ -59,33 +59,17 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Backgound" translatesAutoresizingMaskIntoConstraints="NO" id="sLK-Cm-ec3">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="618"/>
                             </imageView>
-                            <wkWebView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="QhQ-UL-FsZ">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="618"/>
-                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <wkWebViewConfiguration key="configuration" allowsAirPlayForMediaPlayback="NO" allowsPictureInPictureMediaPlayback="NO">
-                                    <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
-                                    <wkPreferences key="preferences"/>
-                                </wkWebViewConfiguration>
-                            </wkWebView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="sLK-Cm-ec3" firstAttribute="leading" secondItem="O1u-W8-tvY" secondAttribute="leading" id="Def-Qn-w6I"/>
                             <constraint firstItem="sLK-Cm-ec3" firstAttribute="bottom" secondItem="O1u-W8-tvY" secondAttribute="bottom" id="SW2-Ml-w3e"/>
                             <constraint firstItem="sLK-Cm-ec3" firstAttribute="top" secondItem="QS5-Rx-YEW" secondAttribute="top" id="TYd-XH-iWZ"/>
-                            <constraint firstItem="QhQ-UL-FsZ" firstAttribute="top" secondItem="QS5-Rx-YEW" secondAttribute="top" id="bAk-Us-a6Z"/>
-                            <constraint firstItem="QhQ-UL-FsZ" firstAttribute="trailing" secondItem="O1u-W8-tvY" secondAttribute="trailing" id="fPc-DE-LCd"/>
-                            <constraint firstItem="QhQ-UL-FsZ" firstAttribute="bottom" secondItem="O1u-W8-tvY" secondAttribute="bottom" id="p2c-0e-WrK"/>
-                            <constraint firstItem="QhQ-UL-FsZ" firstAttribute="leading" secondItem="O1u-W8-tvY" secondAttribute="leading" id="yM2-3T-nDY"/>
                             <constraint firstItem="sLK-Cm-ec3" firstAttribute="trailing" secondItem="O1u-W8-tvY" secondAttribute="trailing" id="zTy-Qu-hYg"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="O1u-W8-tvY"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Directory" image="directory" id="cPa-gy-q4n"/>
-                    <connections>
-                        <outlet property="WebViewThing" destination="QhQ-UL-FsZ" id="YsB-31-csb"/>
-                        <outlet property="webViewVar" destination="QhQ-UL-FsZ" id="pkA-Kn-fCv"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4Nw-L8-lE0" sceneMemberID="firstResponder"/>
             </objects>
@@ -99,8 +83,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Backgound" translatesAutoresizingMaskIntoConstraints="NO" id="n9y-Dm-Iq4" customClass="pa">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="Backgound" translatesAutoresizingMaskIntoConstraints="NO" id="n9y-Dm-Iq4" customClass="pa">
+                                <rect key="frame" x="-1" y="0.0" width="375" height="667"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ParentsText" translatesAutoresizingMaskIntoConstraints="NO" id="pg1-wA-ZHx">
                                 <rect key="frame" x="67" y="0.0" width="240" height="128"/>
@@ -108,25 +92,42 @@
                                     <accessibilityTraits key="traits" button="YES" image="YES"/>
                                 </accessibility>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qKO-2Y-LIK">
-                                <rect key="frame" x="1" y="246" width="374" height="60"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qKO-2Y-LIK">
+                                <rect key="frame" x="1" y="200" width="374" height="64"/>
+                                <accessibility key="accessibilityConfiguration">
+                                    <accessibilityTraits key="traits" button="YES" link="YES"/>
+                                </accessibility>
                                 <state key="normal" image="jupiterlogos"/>
                                 <connections>
-                                    <action selector="launchJupiter:" destination="nn0-TG-Ne1" eventType="touchUpInside" id="fsY-mZ-f5F"/>
+                                    <action selector="launchJupiter:" destination="nn0-TG-Ne1" eventType="touchUpInside" id="4Gi-1m-olc"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oBj-q0-gfA">
+                                <rect key="frame" x="9" y="325" width="359" height="135"/>
+                                <state key="normal" image="heroLogo"/>
+                                <connections>
+                                    <action selector="launchhero:" destination="nn0-TG-Ne1" eventType="touchUpInside" id="SXG-Tb-fQT"/>
                                 </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
+                            <constraint firstItem="qKO-2Y-LIK" firstAttribute="trailing" secondItem="9Vb-PL-Awz" secondAttribute="trailing" id="3KY-oE-H9j"/>
+                            <constraint firstItem="oBj-q0-gfA" firstAttribute="leading" secondItem="9Vb-PL-Awz" secondAttribute="leading" constant="9" id="4ZK-36-dde"/>
                             <constraint firstItem="n9y-Dm-Iq4" firstAttribute="leading" secondItem="9Vb-PL-Awz" secondAttribute="leading" id="678-yH-bcb"/>
+                            <constraint firstItem="oBj-q0-gfA" firstAttribute="top" secondItem="qKO-2Y-LIK" secondAttribute="bottom" constant="61" id="7rE-oh-FQR"/>
                             <constraint firstItem="pg1-wA-ZHx" firstAttribute="leading" secondItem="9Vb-PL-Awz" secondAttribute="leading" constant="67" id="Htw-ZP-h0M"/>
+                            <constraint firstItem="9Vb-PL-Awz" firstAttribute="bottom" secondItem="oBj-q0-gfA" secondAttribute="bottom" constant="158" id="Qvq-6j-rnG"/>
                             <constraint firstItem="pg1-wA-ZHx" firstAttribute="top" secondItem="h6k-Ow-F5X" secondAttribute="top" id="R1P-mO-8RZ"/>
+                            <constraint firstItem="qKO-2Y-LIK" firstAttribute="top" secondItem="pg1-wA-ZHx" secondAttribute="bottom" constant="72" id="aht-UM-SqE"/>
                             <constraint firstItem="n9y-Dm-Iq4" firstAttribute="trailing" secondItem="9Vb-PL-Awz" secondAttribute="trailing" id="eIG-Ds-GBD"/>
+                            <constraint firstItem="9Vb-PL-Awz" firstAttribute="trailing" secondItem="oBj-q0-gfA" secondAttribute="trailing" constant="7" id="fwH-sa-OWt"/>
                             <constraint firstItem="9Vb-PL-Awz" firstAttribute="trailing" secondItem="pg1-wA-ZHx" secondAttribute="trailing" constant="68" id="j1j-v8-Zad"/>
+                            <constraint firstItem="oBj-q0-gfA" firstAttribute="top" secondItem="qKO-2Y-LIK" secondAttribute="bottom" constant="61" id="j71-9K-fog"/>
                             <constraint firstItem="9Vb-PL-Awz" firstAttribute="bottom" secondItem="pg1-wA-ZHx" secondAttribute="bottom" constant="490" id="jFp-WD-9os"/>
                             <constraint firstAttribute="bottom" secondItem="n9y-Dm-Iq4" secondAttribute="bottom" id="mlr-lt-pg7"/>
                             <constraint firstItem="n9y-Dm-Iq4" firstAttribute="top" secondItem="h6k-Ow-F5X" secondAttribute="top" id="oF1-VI-3Ll"/>
+                            <constraint firstItem="qKO-2Y-LIK" firstAttribute="leading" secondItem="9Vb-PL-Awz" secondAttribute="leading" constant="1" id="shM-LL-jLy"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="9Vb-PL-Awz"/>
                     </view>
@@ -146,7 +147,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="jmO-CC-sMH"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Calendar" image="calender" id="iQb-0x-zE4"/>
+                    <tabBarItem key="tabBarItem" title="Calendar" image="calender" selectedImage="calender" id="iQb-0x-zE4"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="YeU-6a-iDe" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -180,6 +181,7 @@
         <image name="ParentsText" width="207" height="86"/>
         <image name="calender" width="50" height="50"/>
         <image name="directory" width="50" height="50"/>
+        <image name="heroLogo" width="345" height="135"/>
         <image name="home" width="48" height="46"/>
         <image name="jupiterlogos" width="363" height="64"/>
         <image name="paraent" width="50" height="50"/>
