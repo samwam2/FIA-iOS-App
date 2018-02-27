@@ -7,6 +7,8 @@
 //
 
 import UIKit
+//import Mixpanel
+import Firebase
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -20,7 +22,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         var prefersStatusBarHidden: Bool {
             return true
         }
+        FirebaseApp.configure()
         return true
+        
+       //Mixpanel.initialize(token: "6dba90a953c9a6772b6012b87cab207d")
     }
 
     func applicationWillResignActive(_ application: UIApplication) {

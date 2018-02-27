@@ -7,9 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		015689B609DC18571136CF9C /* Pods_FrickImpactAcademyUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27F46BAC907E3B52C633BE96 /* Pods_FrickImpactAcademyUITests.framework */; };
-		1773AC0157274329B3FB3A33 /* Pods_FrickImpactAcademyTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E87B65F56CE16E3D2475CF63 /* Pods_FrickImpactAcademyTests.framework */; };
-		3A8FE18CEC0DDEAFFA8E6FAD /* Pods_FrickImpactAcademy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E64E8536692C3054044A5D9 /* Pods_FrickImpactAcademy.framework */; };
 		822C1ADC1F9581CE00FC38D1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 822C1ADB1F9581CE00FC38D1 /* AppDelegate.swift */; };
 		822C1ADE1F9581CE00FC38D1 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 822C1ADD1F9581CE00FC38D1 /* FirstViewController.swift */; };
 		822C1AE01F9581CE00FC38D1 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 822C1ADF1F9581CE00FC38D1 /* SecondViewController.swift */; };
@@ -23,6 +20,10 @@
 		82515A8D1FBA6E9300F7380D /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82515A8C1FBA6E8700F7380D /* WebKit.framework */; };
 		8291E0671FD222BF009CA9A9 /* AnytonyCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8291E0661FD222BF009CA9A9 /* AnytonyCode.swift */; };
 		8291E0691FD23176009CA9A9 /* calendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8291E0681FD23176009CA9A9 /* calendarView.swift */; };
+		8296040B2044C06F003C1A17 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8296040A2044C06F003C1A17 /* GoogleService-Info.plist */; };
+		8296040C2044C06F003C1A17 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8296040A2044C06F003C1A17 /* GoogleService-Info.plist */; };
+		8296040D2044C06F003C1A17 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8296040A2044C06F003C1A17 /* GoogleService-Info.plist */; };
+		829AAB541FDB62150097C911 /* Pods_FrickImpactAcademy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 829AAB551FDB62150097C911 /* Pods_FrickImpactAcademy.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,7 +46,6 @@
 /* Begin PBXFileReference section */
 		27F46BAC907E3B52C633BE96 /* Pods_FrickImpactAcademyUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FrickImpactAcademyUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E64E8536692C3054044A5D9 /* Pods_FrickImpactAcademy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FrickImpactAcademy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5BD6AA50A33726299D87B60B /* Pods-FrickImpactAcademyUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FrickImpactAcademyUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FrickImpactAcademyUITests/Pods-FrickImpactAcademyUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		822C1AD81F9581CE00FC38D1 /* FrickImpactAcademy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FrickImpactAcademy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		822C1ADB1F9581CE00FC38D1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		822C1ADD1F9581CE00FC38D1 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -60,16 +60,110 @@
 		822C1AF91F9581CF00FC38D1 /* FrickImpactAcademyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FrickImpactAcademyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		822C1AFD1F9581CF00FC38D1 /* FrickImpactAcademyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrickImpactAcademyUITests.swift; sourceTree = "<group>"; };
 		822C1AFF1F9581CF00FC38D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		822CF91C1FDB644500466892 /* Mixpanel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Mixpanel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8240F1FB1FDB671C00276A6C /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		8240F1FD1FDB671C00276A6C /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		8240F1FE1FDB671C00276A6C /* Mixpanel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mixpanel.swift; sourceTree = "<group>"; };
+		8240F1FF1FDB671C00276A6C /* Tweak.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tweak.swift; sourceTree = "<group>"; };
+		8240F2001FDB671C00276A6C /* BindingMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingMessage.swift; sourceTree = "<group>"; };
+		8240F2011FDB671C00276A6C /* UIImageToNSDictionary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageToNSDictionary.swift; sourceTree = "<group>"; };
+		8240F2021FDB671C00276A6C /* CGSizeToNSDictionary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CGSizeToNSDictionary.swift; sourceTree = "<group>"; };
+		8240F2031FDB671C00276A6C /* Track.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Track.swift; sourceTree = "<group>"; };
+		8240F2041FDB671C00276A6C /* TweakableType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweakableType.swift; sourceTree = "<group>"; };
+		8240F2051FDB671C00276A6C /* InAppButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InAppButton.swift; sourceTree = "<group>"; };
+		8240F2061FDB671C00276A6C /* ChangeMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeMessage.swift; sourceTree = "<group>"; };
+		8240F2071FDB671C00276A6C /* TweakGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweakGroup.swift; sourceTree = "<group>"; };
+		8240F2081FDB671C00276A6C /* Swizzle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swizzle.swift; sourceTree = "<group>"; };
+		8240F2091FDB671C00276A6C /* Decide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Decide.swift; sourceTree = "<group>"; };
+		8240F20A1FDB671C00276A6C /* TweakStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweakStore.swift; sourceTree = "<group>"; };
+		8240F20B1FDB671C00276A6C /* TakeoverNotificationViewController~iphoneportrait.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = "TakeoverNotificationViewController~iphoneportrait.xib"; sourceTree = "<group>"; };
+		8240F20C1FDB671C00276A6C /* ReadWriteLock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadWriteLock.swift; sourceTree = "<group>"; };
+		8240F20D1FDB671C00276A6C /* SHA256.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SHA256.swift; sourceTree = "<group>"; };
+		8240F20E1FDB671C00276A6C /* CGAffineTransformToNSDictionary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CGAffineTransformToNSDictionary.swift; sourceTree = "<group>"; };
+		8240F20F1FDB671C00276A6C /* Error.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Error.swift; sourceTree = "<group>"; };
+		8240F2101FDB671C00276A6C /* UIColorToNSString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorToNSString.swift; sourceTree = "<group>"; };
+		8240F2111FDB671C00276A6C /* TakeoverNotification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TakeoverNotification.swift; sourceTree = "<group>"; };
+		8240F2121FDB671C00276A6C /* ApplicationStateSerializer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplicationStateSerializer.swift; sourceTree = "<group>"; };
+		8240F2131FDB671C00276A6C /* MixpanelType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MixpanelType.swift; sourceTree = "<group>"; };
+		8240F2141FDB671C00276A6C /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		8240F2151FDB671C00276A6C /* CGPointToNSDictionary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CGPointToNSDictionary.swift; sourceTree = "<group>"; };
+		8240F2161FDB671C00276A6C /* MiniNotificationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiniNotificationViewController.swift; sourceTree = "<group>"; };
+		8240F2171FDB671C00276A6C /* Logger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
+		8240F2181FDB671C00276A6C /* DisconnectMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisconnectMessage.swift; sourceTree = "<group>"; };
+		8240F2191FDB671C00276A6C /* VariantAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VariantAction.swift; sourceTree = "<group>"; };
+		8240F21A1FDB671C00276A6C /* ClearMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClearMessage.swift; sourceTree = "<group>"; };
+		8240F21B1FDB671C00276A6C /* MiniNotification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiniNotification.swift; sourceTree = "<group>"; };
+		8240F21C1FDB671C00276A6C /* AnyTweak.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyTweak.swift; sourceTree = "<group>"; };
+		8240F21D1FDB671C00276A6C /* UIViewSelectors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewSelectors.swift; sourceTree = "<group>"; };
+		8240F21E1FDB671C00276A6C /* TakeoverNotificationViewController~ipad.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = "TakeoverNotificationViewController~ipad.xib"; sourceTree = "<group>"; };
+		8240F21F1FDB671C00276A6C /* UITableViewBinding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITableViewBinding.swift; sourceTree = "<group>"; };
+		8240F2201FDB671C00276A6C /* ObjectIdentityProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjectIdentityProvider.swift; sourceTree = "<group>"; };
+		8240F2211FDB671C00276A6C /* BaseNotificationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseNotificationViewController.swift; sourceTree = "<group>"; };
+		8240F2221FDB671C00276A6C /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
+		8240F2231FDB671C00276A6C /* FileLogging.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileLogging.swift; sourceTree = "<group>"; };
+		8240F2241FDB671C00276A6C /* Flush.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Flush.swift; sourceTree = "<group>"; };
+		8240F2251FDB671C00276A6C /* MD5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MD5.swift; sourceTree = "<group>"; };
+		8240F2261FDB671C00276A6C /* placeholder-image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "placeholder-image.png"; sourceTree = "<group>"; };
+		8240F2271FDB671C00276A6C /* TweakPersistency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweakPersistency.swift; sourceTree = "<group>"; };
+		8240F2281FDB671C00276A6C /* BaseWebSocketMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseWebSocketMessage.swift; sourceTree = "<group>"; };
+		8240F2291FDB671C00276A6C /* MixpanelInstance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MixpanelInstance.swift; sourceTree = "<group>"; };
+		8240F22A1FDB671C00276A6C /* ObjectSerializerConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjectSerializerConfig.swift; sourceTree = "<group>"; };
+		8240F22B1FDB671C00276A6C /* VariantTweak.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VariantTweak.swift; sourceTree = "<group>"; };
+		8240F22C1FDB671C00276A6C /* TakeoverNotificationViewController~iphonelandscape.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = "TakeoverNotificationViewController~iphonelandscape.xib"; sourceTree = "<group>"; };
+		8240F22D1FDB671C00276A6C /* TweakLibrary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweakLibrary.swift; sourceTree = "<group>"; };
+		8240F22E1FDB671C00276A6C /* TweakBinding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweakBinding.swift; sourceTree = "<group>"; };
+		8240F22F1FDB671C00276A6C /* ObjectSerializer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjectSerializer.swift; sourceTree = "<group>"; };
+		8240F2301FDB671C00276A6C /* NSAttributedStringToNSDictionary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSAttributedStringToNSDictionary.swift; sourceTree = "<group>"; };
+		8240F2311FDB671C00276A6C /* UIEdgeInsetsToNSDictionary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIEdgeInsetsToNSDictionary.swift; sourceTree = "<group>"; };
+		8240F2321FDB671C00276A6C /* FlushRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlushRequest.swift; sourceTree = "<group>"; };
+		8240F2331FDB671C00276A6C /* SSLSecurity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SSLSecurity.swift; sourceTree = "<group>"; };
+		8240F2341FDB671C00276A6C /* DeviceInfoMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceInfoMessage.swift; sourceTree = "<group>"; };
+		8240F2351FDB671C00276A6C /* PrintLogging.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrintLogging.swift; sourceTree = "<group>"; };
+		8240F2361FDB671C00276A6C /* Clip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Clip.swift; sourceTree = "<group>"; };
+		8240F2371FDB671C00276A6C /* MPCloseButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MPCloseButton.png; sourceTree = "<group>"; };
+		8240F2381FDB671C00276A6C /* ObjectFilter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjectFilter.swift; sourceTree = "<group>"; };
+		8240F2391FDB671C00276A6C /* Codeless.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Codeless.swift; sourceTree = "<group>"; };
+		8240F23A1FDB671C00276A6C /* CGRectToNSDictionary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CGRectToNSDictionary.swift; sourceTree = "<group>"; };
+		8240F23B1FDB671C00276A6C /* WebSocket.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebSocket.swift; sourceTree = "<group>"; };
+		8240F23C1FDB671C00276A6C /* People.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = People.swift; sourceTree = "<group>"; };
+		8240F23D1FDB671C00276A6C /* InAppNotifications.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InAppNotifications.swift; sourceTree = "<group>"; };
+		8240F23E1FDB671C00276A6C /* UIFontToNSDictionary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIFontToNSDictionary.swift; sourceTree = "<group>"; };
+		8240F23F1FDB671C00276A6C /* TweakMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweakMessage.swift; sourceTree = "<group>"; };
+		8240F2401FDB671C00276A6C /* Variant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Variant.swift; sourceTree = "<group>"; };
+		8240F2411FDB671C00276A6C /* UIControlBinding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIControlBinding.swift; sourceTree = "<group>"; };
+		8240F2421FDB671C00276A6C /* JSONHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONHandler.swift; sourceTree = "<group>"; };
+		8240F2431FDB671C00276A6C /* DecideRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DecideRequest.swift; sourceTree = "<group>"; };
+		8240F2441FDB671C00276A6C /* MPCloseButton@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MPCloseButton@3x.png"; sourceTree = "<group>"; };
+		8240F2451FDB671C00276A6C /* InAppNotification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InAppNotification.swift; sourceTree = "<group>"; };
+		8240F2461FDB671C00276A6C /* AutomaticProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutomaticProperties.swift; sourceTree = "<group>"; };
+		8240F2471FDB671C00276A6C /* IdentityTransformer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IdentityTransformer.swift; sourceTree = "<group>"; };
+		8240F2481FDB671C00276A6C /* SnapshotMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapshotMessage.swift; sourceTree = "<group>"; };
+		8240F2491FDB671C00276A6C /* ObjectSelector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjectSelector.swift; sourceTree = "<group>"; };
+		8240F24A1FDB671C00276A6C /* TweakClusterType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweakClusterType.swift; sourceTree = "<group>"; };
+		8240F24B1FDB671C00276A6C /* MiniNotificationViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MiniNotificationViewController.xib; sourceTree = "<group>"; };
+		8240F24C1FDB671C00276A6C /* TakeoverNotificationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TakeoverNotificationViewController.swift; sourceTree = "<group>"; };
+		8240F24D1FDB671C00276A6C /* ABTesting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ABTesting.swift; sourceTree = "<group>"; };
+		8240F24E1FDB671C00276A6C /* AutomaticEvents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutomaticEvents.swift; sourceTree = "<group>"; };
+		8240F24F1FDB671C00276A6C /* TweakCollection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweakCollection.swift; sourceTree = "<group>"; };
+		8240F2501FDB671C00276A6C /* WebSocketWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebSocketWrapper.swift; sourceTree = "<group>"; };
+		8240F2511FDB671C00276A6C /* TweakViewData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweakViewData.swift; sourceTree = "<group>"; };
+		8240F2521FDB671C00276A6C /* MPCloseButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MPCloseButton@2x.png"; sourceTree = "<group>"; };
+		8240F2531FDB671C00276A6C /* CodelessBinding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodelessBinding.swift; sourceTree = "<group>"; };
+		8240F2541FDB671C00276A6C /* ObjectSerializerContext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjectSerializerContext.swift; sourceTree = "<group>"; };
+		8240F2551FDB671C00276A6C /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		8242E4871FD616EA00107B88 /* calendarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = calendarViewController.swift; sourceTree = "<group>"; };
 		8242E48B1FD61B6000107B88 /* parnentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = parnentViewController.swift; sourceTree = "<group>"; };
 		82515A8C1FBA6E8700F7380D /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 		82515A8E1FBA6E9B00F7380D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		8291E0661FD222BF009CA9A9 /* AnytonyCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnytonyCode.swift; sourceTree = "<group>"; };
 		8291E0681FD23176009CA9A9 /* calendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = calendarView.swift; sourceTree = "<group>"; };
-		A5CC2634BE92542762E368E9 /* Pods-FrickImpactAcademyTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FrickImpactAcademyTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FrickImpactAcademyTests/Pods-FrickImpactAcademyTests.debug.xcconfig"; sourceTree = "<group>"; };
+		8296040A2044C06F003C1A17 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		829AAB531FDB61D20097C911 /* Mixpanel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Mixpanel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		829AAB551FDB62150097C911 /* Pods_FrickImpactAcademy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_FrickImpactAcademy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		829AAB571FDB621B0097C911 /* Pods_FrickImpactAcademyTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_FrickImpactAcademyTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		82F0929B1FD8C9A3004C8470 /* Mixpanel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Mixpanel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		82F092A11FD8CA78004C8470 /* Mixpanel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Mixpanel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB0098A80AAA4995FEA29CDC /* Pods-FrickImpactAcademy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FrickImpactAcademy.release.xcconfig"; path = "Pods/Target Support Files/Pods-FrickImpactAcademy/Pods-FrickImpactAcademy.release.xcconfig"; sourceTree = "<group>"; };
-		CD4C1EB96CDEC10293FC63FE /* Pods-FrickImpactAcademyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FrickImpactAcademyTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FrickImpactAcademyTests/Pods-FrickImpactAcademyTests.release.xcconfig"; sourceTree = "<group>"; };
-		DED98258B69965333D13581E /* Pods-FrickImpactAcademyUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FrickImpactAcademyUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FrickImpactAcademyUITests/Pods-FrickImpactAcademyUITests.release.xcconfig"; sourceTree = "<group>"; };
 		E87B65F56CE16E3D2475CF63 /* Pods_FrickImpactAcademyTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FrickImpactAcademyTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB537F8F33C8CD81487234B4 /* Pods-FrickImpactAcademy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FrickImpactAcademy.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FrickImpactAcademy/Pods-FrickImpactAcademy.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -79,8 +173,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				829AAB541FDB62150097C911 /* Pods_FrickImpactAcademy.framework in Frameworks */,
 				82515A8D1FBA6E9300F7380D /* WebKit.framework in Frameworks */,
-				3A8FE18CEC0DDEAFFA8E6FAD /* Pods_FrickImpactAcademy.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,7 +182,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1773AC0157274329B3FB3A33 /* Pods_FrickImpactAcademyTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -96,7 +189,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				015689B609DC18571136CF9C /* Pods_FrickImpactAcademyUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,6 +231,7 @@
 				822C1AE41F9581CE00FC38D1 /* Assets.xcassets */,
 				822C1AE61F9581CE00FC38D1 /* LaunchScreen.storyboard */,
 				822C1AE91F9581CE00FC38D1 /* Info.plist */,
+				8296040A2044C06F003C1A17 /* GoogleService-Info.plist */,
 			);
 			path = FrickImpactAcademy;
 			sourceTree = "<group>";
@@ -161,9 +254,122 @@
 			path = FrickImpactAcademyUITests;
 			sourceTree = "<group>";
 		};
+		8240F1FA1FDB671C00276A6C /* Mixpanel-swift */ = {
+			isa = PBXGroup;
+			children = (
+				8240F1FB1FDB671C00276A6C /* LICENSE */,
+				8240F1FC1FDB671C00276A6C /* Mixpanel */,
+				8240F2551FDB671C00276A6C /* README.md */,
+			);
+			name = "Mixpanel-swift";
+			path = "Pods/Mixpanel-swift";
+			sourceTree = "<group>";
+		};
+		8240F1FC1FDB671C00276A6C /* Mixpanel */ = {
+			isa = PBXGroup;
+			children = (
+				8240F1FD1FDB671C00276A6C /* Constants.swift */,
+				8240F1FE1FDB671C00276A6C /* Mixpanel.swift */,
+				8240F1FF1FDB671C00276A6C /* Tweak.swift */,
+				8240F2001FDB671C00276A6C /* BindingMessage.swift */,
+				8240F2011FDB671C00276A6C /* UIImageToNSDictionary.swift */,
+				8240F2021FDB671C00276A6C /* CGSizeToNSDictionary.swift */,
+				8240F2031FDB671C00276A6C /* Track.swift */,
+				8240F2041FDB671C00276A6C /* TweakableType.swift */,
+				8240F2051FDB671C00276A6C /* InAppButton.swift */,
+				8240F2061FDB671C00276A6C /* ChangeMessage.swift */,
+				8240F2071FDB671C00276A6C /* TweakGroup.swift */,
+				8240F2081FDB671C00276A6C /* Swizzle.swift */,
+				8240F2091FDB671C00276A6C /* Decide.swift */,
+				8240F20A1FDB671C00276A6C /* TweakStore.swift */,
+				8240F20B1FDB671C00276A6C /* TakeoverNotificationViewController~iphoneportrait.xib */,
+				8240F20C1FDB671C00276A6C /* ReadWriteLock.swift */,
+				8240F20D1FDB671C00276A6C /* SHA256.swift */,
+				8240F20E1FDB671C00276A6C /* CGAffineTransformToNSDictionary.swift */,
+				8240F20F1FDB671C00276A6C /* Error.swift */,
+				8240F2101FDB671C00276A6C /* UIColorToNSString.swift */,
+				8240F2111FDB671C00276A6C /* TakeoverNotification.swift */,
+				8240F2121FDB671C00276A6C /* ApplicationStateSerializer.swift */,
+				8240F2131FDB671C00276A6C /* MixpanelType.swift */,
+				8240F2141FDB671C00276A6C /* Persistence.swift */,
+				8240F2151FDB671C00276A6C /* CGPointToNSDictionary.swift */,
+				8240F2161FDB671C00276A6C /* MiniNotificationViewController.swift */,
+				8240F2171FDB671C00276A6C /* Logger.swift */,
+				8240F2181FDB671C00276A6C /* DisconnectMessage.swift */,
+				8240F2191FDB671C00276A6C /* VariantAction.swift */,
+				8240F21A1FDB671C00276A6C /* ClearMessage.swift */,
+				8240F21B1FDB671C00276A6C /* MiniNotification.swift */,
+				8240F21C1FDB671C00276A6C /* AnyTweak.swift */,
+				8240F21D1FDB671C00276A6C /* UIViewSelectors.swift */,
+				8240F21E1FDB671C00276A6C /* TakeoverNotificationViewController~ipad.xib */,
+				8240F21F1FDB671C00276A6C /* UITableViewBinding.swift */,
+				8240F2201FDB671C00276A6C /* ObjectIdentityProvider.swift */,
+				8240F2211FDB671C00276A6C /* BaseNotificationViewController.swift */,
+				8240F2221FDB671C00276A6C /* Network.swift */,
+				8240F2231FDB671C00276A6C /* FileLogging.swift */,
+				8240F2241FDB671C00276A6C /* Flush.swift */,
+				8240F2251FDB671C00276A6C /* MD5.swift */,
+				8240F2261FDB671C00276A6C /* placeholder-image.png */,
+				8240F2271FDB671C00276A6C /* TweakPersistency.swift */,
+				8240F2281FDB671C00276A6C /* BaseWebSocketMessage.swift */,
+				8240F2291FDB671C00276A6C /* MixpanelInstance.swift */,
+				8240F22A1FDB671C00276A6C /* ObjectSerializerConfig.swift */,
+				8240F22B1FDB671C00276A6C /* VariantTweak.swift */,
+				8240F22C1FDB671C00276A6C /* TakeoverNotificationViewController~iphonelandscape.xib */,
+				8240F22D1FDB671C00276A6C /* TweakLibrary.swift */,
+				8240F22E1FDB671C00276A6C /* TweakBinding.swift */,
+				8240F22F1FDB671C00276A6C /* ObjectSerializer.swift */,
+				8240F2301FDB671C00276A6C /* NSAttributedStringToNSDictionary.swift */,
+				8240F2311FDB671C00276A6C /* UIEdgeInsetsToNSDictionary.swift */,
+				8240F2321FDB671C00276A6C /* FlushRequest.swift */,
+				8240F2331FDB671C00276A6C /* SSLSecurity.swift */,
+				8240F2341FDB671C00276A6C /* DeviceInfoMessage.swift */,
+				8240F2351FDB671C00276A6C /* PrintLogging.swift */,
+				8240F2361FDB671C00276A6C /* Clip.swift */,
+				8240F2371FDB671C00276A6C /* MPCloseButton.png */,
+				8240F2381FDB671C00276A6C /* ObjectFilter.swift */,
+				8240F2391FDB671C00276A6C /* Codeless.swift */,
+				8240F23A1FDB671C00276A6C /* CGRectToNSDictionary.swift */,
+				8240F23B1FDB671C00276A6C /* WebSocket.swift */,
+				8240F23C1FDB671C00276A6C /* People.swift */,
+				8240F23D1FDB671C00276A6C /* InAppNotifications.swift */,
+				8240F23E1FDB671C00276A6C /* UIFontToNSDictionary.swift */,
+				8240F23F1FDB671C00276A6C /* TweakMessage.swift */,
+				8240F2401FDB671C00276A6C /* Variant.swift */,
+				8240F2411FDB671C00276A6C /* UIControlBinding.swift */,
+				8240F2421FDB671C00276A6C /* JSONHandler.swift */,
+				8240F2431FDB671C00276A6C /* DecideRequest.swift */,
+				8240F2441FDB671C00276A6C /* MPCloseButton@3x.png */,
+				8240F2451FDB671C00276A6C /* InAppNotification.swift */,
+				8240F2461FDB671C00276A6C /* AutomaticProperties.swift */,
+				8240F2471FDB671C00276A6C /* IdentityTransformer.swift */,
+				8240F2481FDB671C00276A6C /* SnapshotMessage.swift */,
+				8240F2491FDB671C00276A6C /* ObjectSelector.swift */,
+				8240F24A1FDB671C00276A6C /* TweakClusterType.swift */,
+				8240F24B1FDB671C00276A6C /* MiniNotificationViewController.xib */,
+				8240F24C1FDB671C00276A6C /* TakeoverNotificationViewController.swift */,
+				8240F24D1FDB671C00276A6C /* ABTesting.swift */,
+				8240F24E1FDB671C00276A6C /* AutomaticEvents.swift */,
+				8240F24F1FDB671C00276A6C /* TweakCollection.swift */,
+				8240F2501FDB671C00276A6C /* WebSocketWrapper.swift */,
+				8240F2511FDB671C00276A6C /* TweakViewData.swift */,
+				8240F2521FDB671C00276A6C /* MPCloseButton@2x.png */,
+				8240F2531FDB671C00276A6C /* CodelessBinding.swift */,
+				8240F2541FDB671C00276A6C /* ObjectSerializerContext.swift */,
+			);
+			path = Mixpanel;
+			sourceTree = "<group>";
+		};
 		82515A8B1FBA6E8600F7380D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				8240F1FA1FDB671C00276A6C /* Mixpanel-swift */,
+				822CF91C1FDB644500466892 /* Mixpanel.framework */,
+				829AAB571FDB621B0097C911 /* Pods_FrickImpactAcademyTests.framework */,
+				829AAB551FDB62150097C911 /* Pods_FrickImpactAcademy.framework */,
+				829AAB531FDB61D20097C911 /* Mixpanel.framework */,
+				82F092A11FD8CA78004C8470 /* Mixpanel.framework */,
+				82F0929B1FD8C9A3004C8470 /* Mixpanel.framework */,
 				82515A8E1FBA6E9B00F7380D /* UIKit.framework */,
 				82515A8C1FBA6E8700F7380D /* WebKit.framework */,
 				4E64E8536692C3054044A5D9 /* Pods_FrickImpactAcademy.framework */,
@@ -178,10 +384,6 @@
 			children = (
 				EB537F8F33C8CD81487234B4 /* Pods-FrickImpactAcademy.debug.xcconfig */,
 				BB0098A80AAA4995FEA29CDC /* Pods-FrickImpactAcademy.release.xcconfig */,
-				A5CC2634BE92542762E368E9 /* Pods-FrickImpactAcademyTests.debug.xcconfig */,
-				CD4C1EB96CDEC10293FC63FE /* Pods-FrickImpactAcademyTests.release.xcconfig */,
-				5BD6AA50A33726299D87B60B /* Pods-FrickImpactAcademyUITests.debug.xcconfig */,
-				DED98258B69965333D13581E /* Pods-FrickImpactAcademyUITests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -213,12 +415,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 822C1B051F9581CF00FC38D1 /* Build configuration list for PBXNativeTarget "FrickImpactAcademyTests" */;
 			buildPhases = (
-				6EE139C15A684BEC868902ED /* [CP] Check Pods Manifest.lock */,
 				822C1AEA1F9581CE00FC38D1 /* Sources */,
 				822C1AEB1F9581CE00FC38D1 /* Frameworks */,
 				822C1AEC1F9581CE00FC38D1 /* Resources */,
-				D1D2361F0435A0F28688C08D /* [CP] Embed Pods Frameworks */,
-				88154D4EB6C654517C1FA0B3 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -234,12 +433,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 822C1B081F9581CF00FC38D1 /* Build configuration list for PBXNativeTarget "FrickImpactAcademyUITests" */;
 			buildPhases = (
-				F7E71D356E84F970EFB9EA5A /* [CP] Check Pods Manifest.lock */,
 				822C1AF51F9581CF00FC38D1 /* Sources */,
 				822C1AF61F9581CF00FC38D1 /* Frameworks */,
 				822C1AF71F9581CF00FC38D1 /* Resources */,
-				374363600E414B87E3A25C4D /* [CP] Embed Pods Frameworks */,
-				6EBCBD051EFB21F6A2C84289 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -303,6 +499,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				822C1AE81F9581CE00FC38D1 /* LaunchScreen.storyboard in Resources */,
+				8296040B2044C06F003C1A17 /* GoogleService-Info.plist in Resources */,
 				822C1AE51F9581CE00FC38D1 /* Assets.xcassets in Resources */,
 				822C1AE31F9581CE00FC38D1 /* Main.storyboard in Resources */,
 			);
@@ -312,6 +509,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8296040C2044C06F003C1A17 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -319,6 +517,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8296040D2044C06F003C1A17 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -333,33 +532,16 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-FrickImpactAcademy/Pods-FrickImpactAcademy-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
-				"${BUILT_PRODUCTS_DIR}/Mixpanel/Mixpanel.framework",
 				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Mixpanel.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FrickImpactAcademy/Pods-FrickImpactAcademy-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		374363600E414B87E3A25C4D /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FrickImpactAcademyUITests/Pods-FrickImpactAcademyUITests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		5954FF28ED061F19673E699F /* [CP] Check Pods Manifest.lock */ = {
@@ -393,87 +575,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FrickImpactAcademy/Pods-FrickImpactAcademy-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		6EBCBD051EFB21F6A2C84289 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FrickImpactAcademyUITests/Pods-FrickImpactAcademyUITests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		6EE139C15A684BEC868902ED /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-FrickImpactAcademyTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		88154D4EB6C654517C1FA0B3 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FrickImpactAcademyTests/Pods-FrickImpactAcademyTests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		D1D2361F0435A0F28688C08D /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FrickImpactAcademyTests/Pods-FrickImpactAcademyTests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		F7E71D356E84F970EFB9EA5A /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-FrickImpactAcademyUITests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -661,7 +762,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 25Y72JH26L;
 				INFOPLIST_FILE = FrickImpactAcademy/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = samShowalter.FrickImpactAcademy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -681,7 +782,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 25Y72JH26L;
 				INFOPLIST_FILE = FrickImpactAcademy/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = samShowalter.FrickImpactAcademy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -693,7 +794,6 @@
 		};
 		822C1B061F9581CF00FC38D1 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A5CC2634BE92542762E368E9 /* Pods-FrickImpactAcademyTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -711,7 +811,6 @@
 		};
 		822C1B071F9581CF00FC38D1 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CD4C1EB96CDEC10293FC63FE /* Pods-FrickImpactAcademyTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -729,7 +828,6 @@
 		};
 		822C1B091F9581CF00FC38D1 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5BD6AA50A33726299D87B60B /* Pods-FrickImpactAcademyUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -746,7 +844,6 @@
 		};
 		822C1B0A1F9581CF00FC38D1 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DED98258B69965333D13581E /* Pods-FrickImpactAcademyUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

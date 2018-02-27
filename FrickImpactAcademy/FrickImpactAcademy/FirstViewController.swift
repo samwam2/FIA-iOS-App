@@ -7,9 +7,13 @@
 //
 
 import UIKit
+import Firebase
 
 class FirstViewController: UIViewController {
-
+    //All Vars and lets
+    @IBOutlet var eventView: UIStackView!
+    let ref = FIRDatabase.database().reference(withPath: "News1")
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
