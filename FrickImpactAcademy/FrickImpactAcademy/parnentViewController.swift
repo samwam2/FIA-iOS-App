@@ -19,7 +19,7 @@ class parnentViewController: UIViewController {
     
     
     @IBAction func launchhero(_ sender: Any) {
-    open(scheme: "https://access.heropowered.com")
+    open(scheme: "https://access.heropowered.com/parent/login")
     }
     override func viewDidLoad() {
         super.viewDidLoad()

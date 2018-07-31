@@ -4,21 +4,14 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>GoogleToolboxForMac.xcscheme</key>
+		<key>Pods-FrickImpactAcademy.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
-		<key>Pods-FrickImpactAcademy.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-			<key>orderHint</key>
-			<integer>2</integer>
-		</dict>
-		<key>nanopb.xcscheme</key>
+		<key>SwiftInstagram.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>

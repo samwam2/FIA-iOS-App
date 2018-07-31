@@ -17,13 +17,11 @@
 		822C1AFE1F9581CF00FC38D1 /* FrickImpactAcademyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 822C1AFD1F9581CF00FC38D1 /* FrickImpactAcademyUITests.swift */; };
 		8242E4881FD616EA00107B88 /* calendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8242E4871FD616EA00107B88 /* calendarViewController.swift */; };
 		8242E48C1FD61B6000107B88 /* parnentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8242E48B1FD61B6000107B88 /* parnentViewController.swift */; };
-		82515A8D1FBA6E9300F7380D /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82515A8C1FBA6E8700F7380D /* WebKit.framework */; };
 		8291E0671FD222BF009CA9A9 /* AnytonyCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8291E0661FD222BF009CA9A9 /* AnytonyCode.swift */; };
 		8291E0691FD23176009CA9A9 /* calendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8291E0681FD23176009CA9A9 /* calendarView.swift */; };
-		8296040B2044C06F003C1A17 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8296040A2044C06F003C1A17 /* GoogleService-Info.plist */; };
-		8296040C2044C06F003C1A17 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8296040A2044C06F003C1A17 /* GoogleService-Info.plist */; };
-		8296040D2044C06F003C1A17 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8296040A2044C06F003C1A17 /* GoogleService-Info.plist */; };
-		829AAB541FDB62150097C911 /* Pods_FrickImpactAcademy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 829AAB551FDB62150097C911 /* Pods_FrickImpactAcademy.framework */; };
+		8293E69220D86007002619A5 /* Pods_FrickImpactAcademy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8293E69120D86007002619A5 /* Pods_FrickImpactAcademy.framework */; };
+		8293E69420D8600C002619A5 /* SwiftInstagram.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8293E69320D8600C002619A5 /* SwiftInstagram.framework */; };
+		82A49C2520CC8BAB006CA552 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 82A49C2420CC8BAB006CA552 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -157,10 +155,15 @@
 		82515A8E1FBA6E9B00F7380D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		8291E0661FD222BF009CA9A9 /* AnytonyCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnytonyCode.swift; sourceTree = "<group>"; };
 		8291E0681FD23176009CA9A9 /* calendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = calendarView.swift; sourceTree = "<group>"; };
-		8296040A2044C06F003C1A17 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		8293E68B20D85EF3002619A5 /* SwiftInstagram.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SwiftInstagram.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8293E69120D86007002619A5 /* Pods_FrickImpactAcademy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_FrickImpactAcademy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8293E69320D8600C002619A5 /* SwiftInstagram.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SwiftInstagram.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		829A349C20CC8E510020F3E5 /* leveldb.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = leveldb.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		829A349E20CC8E550020F3E5 /* nanopb.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = nanopb.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		829AAB531FDB61D20097C911 /* Mixpanel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Mixpanel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		829AAB551FDB62150097C911 /* Pods_FrickImpactAcademy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_FrickImpactAcademy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		829AAB571FDB621B0097C911 /* Pods_FrickImpactAcademyTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_FrickImpactAcademyTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		82A49C2420CC8BAB006CA552 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		82F0929B1FD8C9A3004C8470 /* Mixpanel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Mixpanel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		82F092A11FD8CA78004C8470 /* Mixpanel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Mixpanel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB0098A80AAA4995FEA29CDC /* Pods-FrickImpactAcademy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FrickImpactAcademy.release.xcconfig"; path = "Pods/Target Support Files/Pods-FrickImpactAcademy/Pods-FrickImpactAcademy.release.xcconfig"; sourceTree = "<group>"; };
@@ -173,8 +176,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				829AAB541FDB62150097C911 /* Pods_FrickImpactAcademy.framework in Frameworks */,
-				82515A8D1FBA6E9300F7380D /* WebKit.framework in Frameworks */,
+				8293E69420D8600C002619A5 /* SwiftInstagram.framework in Frameworks */,
+				8293E69220D86007002619A5 /* Pods_FrickImpactAcademy.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -231,7 +234,7 @@
 				822C1AE41F9581CE00FC38D1 /* Assets.xcassets */,
 				822C1AE61F9581CE00FC38D1 /* LaunchScreen.storyboard */,
 				822C1AE91F9581CE00FC38D1 /* Info.plist */,
-				8296040A2044C06F003C1A17 /* GoogleService-Info.plist */,
+				82A49C2420CC8BAB006CA552 /* GoogleService-Info.plist */,
 			);
 			path = FrickImpactAcademy;
 			sourceTree = "<group>";
@@ -363,6 +366,11 @@
 		82515A8B1FBA6E8600F7380D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				8293E69320D8600C002619A5 /* SwiftInstagram.framework */,
+				8293E69120D86007002619A5 /* Pods_FrickImpactAcademy.framework */,
+				8293E68B20D85EF3002619A5 /* SwiftInstagram.framework */,
+				829A349E20CC8E550020F3E5 /* nanopb.framework */,
+				829A349C20CC8E510020F3E5 /* leveldb.framework */,
 				8240F1FA1FDB671C00276A6C /* Mixpanel-swift */,
 				822CF91C1FDB644500466892 /* Mixpanel.framework */,
 				829AAB571FDB621B0097C911 /* Pods_FrickImpactAcademyTests.framework */,
@@ -400,7 +408,6 @@
 				822C1AD51F9581CE00FC38D1 /* Frameworks */,
 				822C1AD61F9581CE00FC38D1 /* Resources */,
 				258906E433BD633989FB799D /* [CP] Embed Pods Frameworks */,
-				66BBB8EE973EC3854D384975 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -499,7 +506,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				822C1AE81F9581CE00FC38D1 /* LaunchScreen.storyboard in Resources */,
-				8296040B2044C06F003C1A17 /* GoogleService-Info.plist in Resources */,
+				82A49C2520CC8BAB006CA552 /* GoogleService-Info.plist in Resources */,
 				822C1AE51F9581CE00FC38D1 /* Assets.xcassets in Resources */,
 				822C1AE31F9581CE00FC38D1 /* Main.storyboard in Resources */,
 			);
@@ -509,7 +516,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8296040C2044C06F003C1A17 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -517,7 +523,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8296040D2044C06F003C1A17 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -531,13 +536,11 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-FrickImpactAcademy/Pods-FrickImpactAcademy-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
-				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftInstagram/SwiftInstagram.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftInstagram.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -560,21 +563,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		66BBB8EE973EC3854D384975 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FrickImpactAcademy/Pods-FrickImpactAcademy-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */

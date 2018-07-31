@@ -3,8 +3,12 @@
 use_frameworks!
 
 target "FrickImpactAcademy" do
-pod 'Firebase/Core'
+pod 'SwiftInstagram', '~> 1.1.1'
+
+#pod 'Firebase/Core'
+#pod 'Firebase/Database'
 #pod 'Mixpanel-swift'
+
 
 
 end 

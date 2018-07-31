@@ -55,5 +55,9 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>InstagramClientId</key>
+	<string>b4793a6b95ed4045a5e3baac0c02d064</string>
+	<key>InstagramRedirectURI</key>
+	<string>google.com</string>
 </dict>
 </plist>

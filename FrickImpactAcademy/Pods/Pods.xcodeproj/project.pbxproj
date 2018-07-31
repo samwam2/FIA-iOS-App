@@ -7,168 +7,179 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		05B1F02560378D28FEBD4E8F6D293216 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		1E1310D8C8ED631D91C17EC5AA236144 /* Pods-FrickImpactAcademy-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FDBD63BFFF2AC1DF4822BB960B9FB88F /* Pods-FrickImpactAcademy-dummy.m */; };
-		29FEADDF2086FDEA7D5BA87DD23B08C6 /* pb_decode.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E3E28FC93E46C4778C303626C7CA9AB /* pb_decode.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		392F2CF142BAA751AC1BB61D8B757D98 /* pb.h in Headers */ = {isa = PBXBuildFile; fileRef = 76AFAA5C3128F2005ADECFD36E2085DC /* pb.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3A50F5C8ECED9627F2EBD97F61BD376D /* pb_common.c in Sources */ = {isa = PBXBuildFile; fileRef = CB1DA5FCB6FC9EDA0D22883C685735B5 /* pb_common.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc -fno-objc-arc -fno-objc-arc"; }; };
-		468DFD90B6C4DA2F7CFA0C1C89F1B615 /* nanopb-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C9CF7FC5E92D31F27BC038941EA6A5A /* nanopb-dummy.m */; };
-		541C5362289CC44D4F067D097F231250 /* GTMDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E042612013FB6CD86A7F8229AA61BE1 /* GTMDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		54F580BF4588159D6A61F21D15591805 /* pb_decode.c in Sources */ = {isa = PBXBuildFile; fileRef = AA70056BAD8EA3D683367B686F1E6B09 /* pb_decode.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc -fno-objc-arc"; }; };
-		55D8D5D912CFD2F3584E4553C2EAD734 /* pb_encode.c in Sources */ = {isa = PBXBuildFile; fileRef = AF577CB3FB3CA827E64E6F3625F4804A /* pb_encode.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc -fno-objc-arc"; }; };
-		806BAA4E00218D70995697C4400BE7A0 /* pb_common.h in Headers */ = {isa = PBXBuildFile; fileRef = 841E491E4F984559D8FACA8D9B180DBA /* pb_common.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		81E4B6988FF26F9249B79C6C8CC667B4 /* GoogleToolboxForMac-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B9DDF1EF2BBAE154BC6081D24CB6369 /* GoogleToolboxForMac-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		93D51748565CFEB9490FBA7DA993C5C0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		D519FA90904533723040A90455C62032 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		DBFECCB0BBE3F11CC41A3C1A8C4879D3 /* GTMNSData+zlib.h in Headers */ = {isa = PBXBuildFile; fileRef = EA772F7A06348F33C61B7286F52EEF50 /* GTMNSData+zlib.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E181395E73163EB702FCE9A21403D67B /* pb_encode.h in Headers */ = {isa = PBXBuildFile; fileRef = DD9E8F12766FD7202402AD690FB605B6 /* pb_encode.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F7D889906DECB078EAAECB9D4A320E9C /* GTMNSData+zlib.m in Sources */ = {isa = PBXBuildFile; fileRef = F6156B8D6D3DD90AEE4394E6A26A89FE /* GTMNSData+zlib.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		F9D92BA503505CB48EF4ECF0DDF57686 /* nanopb-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FF6F39ECB24CE5CFAA775B1CC1E891D9 /* nanopb-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FAC3F3CAABA60EF76069431C5BB5032A /* GoogleToolboxForMac-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 505C5F864762B7FE38AA845332172DE9 /* GoogleToolboxForMac-dummy.m */; };
-		FCE39F041FC3D971CED24E9BA5578E0D /* Pods-FrickImpactAcademy-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A110B8C764457C34C42027EEB7708921 /* Pods-FrickImpactAcademy-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		003D6D87C300857EDB394D6F99B6B1EE /* Comments.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B7CEC94E35675982F345EEAC558A72F /* Comments.swift */; };
+		065D10C8E305EDF3C08575671D7C24AF /* InstagramMedia.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED19F41C74969776DE6FEB23624D8F11 /* InstagramMedia.swift */; };
+		09BCCD965298D52A6896299B91CB2610 /* SwiftInstagram-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4627D19EA70008A70566D01B31CB4B66 /* SwiftInstagram-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0CCF19A2C73056010D6F5DD8918BBCAE /* InstagramLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E3EA29F8ED0420088E9D580E96F5E0F /* InstagramLocation.swift */; };
+		1FD1DA31003107112AF27CF674233ECE /* KeychainSwiftDistrib.swift in Sources */ = {isa = PBXBuildFile; fileRef = 870B5B25E4BE092CAE645810C6F2783C /* KeychainSwiftDistrib.swift */; };
+		2035A024D32FAA980F9E345B1CB31B55 /* Relationships.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F663B530A1A4688ACC3B40CD9DA7348 /* Relationships.swift */; };
+		27C07D02D58AD01F0CE99F8458040054 /* URL+SwiftInstagram.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72E9DC0D32FA138583A43B70E0CA70E7 /* URL+SwiftInstagram.swift */; };
+		2DC38E4943ED30DB98F847947E4E7103 /* Pods-FrickImpactAcademy-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 51C449C09E6D8211297D2ADFC76B5492 /* Pods-FrickImpactAcademy-dummy.m */; };
+		2EA1A9BF0F2359F9CF2D0AB7C77F793C /* Pods-FrickImpactAcademy-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C388118B8A867977689685945D20607 /* Pods-FrickImpactAcademy-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		33CEA5C941EDD03D14459B50DC1CBC23 /* Optional+SwiftInstagram.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABFAFE0117CC56867FEE50547A7CBE9A /* Optional+SwiftInstagram.swift */; };
+		352183C8C3A30B54E81C651984B48D41 /* InstagramTag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF983BD43573BC6185CBD50745D474A /* InstagramTag.swift */; };
+		455A3240631C52EFD8AD958BA5747467 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		49914CF9471929952D73345ED52315F9 /* Data+SwiftInstagram.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1B8940C6D2BAB0448B746CA3C4978EB /* Data+SwiftInstagram.swift */; };
+		58D9E152901220E376EE0E08CC3E1304 /* Media.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0D081A4BF2C927FE77599076679B292 /* Media.swift */; };
+		602BB51780B926186DA6CDE7D796EB29 /* InstagramScope.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB9A74F984A77EADD1AF2EB353B43A4B /* InstagramScope.swift */; };
+		6AC13635F7295C32E17933AE08635163 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		6E13F193B257E862DB5F2950AE20812F /* Array+SwiftInstagram.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE3BF0F05A7664F1F42C695F80F9B47 /* Array+SwiftInstagram.swift */; };
+		6E3DEA3702C8589C7F74B62E020BB7C5 /* Tags.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DD3DFAB93B367B7CE7D352414031B2A /* Tags.swift */; };
+		71DC60F2664DB7825DBFAA470D1455F0 /* InstagramRelationship.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3DE4CBDEA7D62688A0A6BB7BD2D699A /* InstagramRelationship.swift */; };
+		72D8C50AEF971A27E7D40EE3855F445D /* SwiftInstagram-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 45A10F6CB96669EEBE5AA4AE0F27F501 /* SwiftInstagram-dummy.m */; };
+		7FBCB21024B39231185875C833811DE1 /* InstagramUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EEECD67877547482FCACC81FE2E4CB1 /* InstagramUser.swift */; };
+		9750FBEE99B511C885A807BAC7B0844D /* Instagram.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20CAF73206390EABD283AF93DC8B9DFD /* Instagram.swift */; };
+		B41BD8C924E2EC03BE0C8352AF9921BD /* Users.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1183E03AE537EADBF0C944414A6FF66 /* Users.swift */; };
+		BB30EC17ED08D1B17FF20D7C9232B81A /* InstagramResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 405FFCC627D63A5C8EED744B986B99B0 /* InstagramResponse.swift */; };
+		BCE724293B85AF3C826BD115815F7BCA /* Locations.swift in Sources */ = {isa = PBXBuildFile; fileRef = F512787EC210F96F4C2F104D9BB9B2F0 /* Locations.swift */; };
+		C16099223046944BA62BA1F6B4C47EFC /* InstagramError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5459F6107395C04B50BDFB4BB890A284 /* InstagramError.swift */; };
+		CA0E6AEB1ABCC65DE33E5EA8B59A323C /* Likes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27C2EC661758ADF057FF02E5DE7E21EE /* Likes.swift */; };
+		E3062734151054971FBAB0D41A212AF4 /* InstagramLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C7C08AABF9095F154313E01D560401D /* InstagramLoginViewController.swift */; };
+		EB8D212536256D6BCF0D4B4CFA14A9CC /* InstagramComment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59F760CDEB68A960E4267FDEA581533E /* InstagramComment.swift */; };
+		EFC024292B87D346693B43DDDDC100AD /* Dictionary+SwiftInstagram.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31A1986B5C10A59919C8512EF8A8E3B8 /* Dictionary+SwiftInstagram.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		C3B94BD570A44FF9521FFC1946D29D06 /* PBXContainerItemProxy */ = {
+		52C560BF5096870F4597BF52F751808E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 00103D6C821BE85971C563025527BA5D;
-			remoteInfo = GoogleToolboxForMac;
-		};
-		FAE877130CC203A88D91001B31A7069A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = E4DD95323C54A78F879DAB0F1508B8E7;
-			remoteInfo = nanopb;
+			remoteGlobalIDString = 99295E82C5745BA367C58F0C7857C4ED;
+			remoteInfo = SwiftInstagram;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		091F352BA24FAFD2BD8E68862CF2B4ED /* FirebaseCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseCore.framework; path = Frameworks/FirebaseCore.framework; sourceTree = "<group>"; };
-		159F2B005BCB27F8F1425CD945AEB88B /* Pods-FrickImpactAcademy.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-FrickImpactAcademy.modulemap"; sourceTree = "<group>"; };
-		17D7CB4E265F749ED7EE6CE6809DDEF8 /* FirebaseNanoPB.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseNanoPB.framework; path = Frameworks/FirebaseNanoPB.framework; sourceTree = "<group>"; };
-		37E4869531479B2110E54EE0AC03AF43 /* Pods-FrickImpactAcademy-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FrickImpactAcademy-frameworks.sh"; sourceTree = "<group>"; };
-		4B7236B9B35B25C377B145591377CCD7 /* nanopb-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "nanopb-prefix.pch"; sourceTree = "<group>"; };
-		4C9CF7FC5E92D31F27BC038941EA6A5A /* nanopb-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "nanopb-dummy.m"; sourceTree = "<group>"; };
-		4E042612013FB6CD86A7F8229AA61BE1 /* GTMDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GTMDefines.h; sourceTree = "<group>"; };
-		4F8BB587F5B87CAB1B65171108DC85D5 /* Pods-FrickImpactAcademy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FrickImpactAcademy.debug.xcconfig"; sourceTree = "<group>"; };
-		505C5F864762B7FE38AA845332172DE9 /* GoogleToolboxForMac-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GoogleToolboxForMac-dummy.m"; sourceTree = "<group>"; };
-		54FD291AE087975C07B620963FFBB3B8 /* GoogleToolboxForMac.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GoogleToolboxForMac.framework; path = GoogleToolboxForMac.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		56CAA223ED48671D00B612679A4CFF93 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5781526AD437A00C4907E175A1F9B824 /* Firebase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Firebase.h; path = Core/Sources/Firebase.h; sourceTree = "<group>"; };
-		5857319B3AF21174742939162D58FA56 /* FirebaseInstanceID.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseInstanceID.framework; path = Frameworks/FirebaseInstanceID.framework; sourceTree = "<group>"; };
-		5ACADB9EF2837349C2A5F44E67B33B53 /* GoogleToolboxForMac.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = GoogleToolboxForMac.modulemap; sourceTree = "<group>"; };
-		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		6B5A15C6296CA74BB8898A6787F49B3A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7181A9462C3874418C47A2B1FEF8DEB5 /* Pods-FrickImpactAcademy-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FrickImpactAcademy-acknowledgements.markdown"; sourceTree = "<group>"; };
-		72224E5E74EFE503C6A1CDE6753CE582 /* FirebaseCoreDiagnostics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseCoreDiagnostics.framework; path = Frameworks/FirebaseCoreDiagnostics.framework; sourceTree = "<group>"; };
-		76AFAA5C3128F2005ADECFD36E2085DC /* pb.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = pb.h; sourceTree = "<group>"; };
-		7B9DDF1EF2BBAE154BC6081D24CB6369 /* GoogleToolboxForMac-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GoogleToolboxForMac-umbrella.h"; sourceTree = "<group>"; };
-		7E3E28FC93E46C4778C303626C7CA9AB /* pb_decode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = pb_decode.h; sourceTree = "<group>"; };
-		841E491E4F984559D8FACA8D9B180DBA /* pb_common.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = pb_common.h; sourceTree = "<group>"; };
-		890C0841220393CFA2700473F72E3E03 /* Pods-FrickImpactAcademy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FrickImpactAcademy.release.xcconfig"; sourceTree = "<group>"; };
-		8F0A0B2F788848A43580C8F3FBBA24D7 /* nanopb.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = nanopb.xcconfig; sourceTree = "<group>"; };
+		07731B7AABFED8810334AFCEF952862D /* Pods-FrickImpactAcademy-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FrickImpactAcademy-acknowledgements.markdown"; sourceTree = "<group>"; };
+		0C828B7BD594713EF06B0000EA1B8B84 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1FD33B5580F57C041E3C319027EBDEF3 /* SwiftInstagram.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftInstagram.framework; path = SwiftInstagram.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		20CAF73206390EABD283AF93DC8B9DFD /* Instagram.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Instagram.swift; path = Sources/Instagram.swift; sourceTree = "<group>"; };
+		24A123CD29F01C918B26226BBA9171FF /* SwiftInstagram.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwiftInstagram.modulemap; sourceTree = "<group>"; };
+		27C2EC661758ADF057FF02E5DE7E21EE /* Likes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Likes.swift; path = Sources/Endpoints/Likes.swift; sourceTree = "<group>"; };
+		2B7CEC94E35675982F345EEAC558A72F /* Comments.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Comments.swift; path = Sources/Endpoints/Comments.swift; sourceTree = "<group>"; };
+		31A1986B5C10A59919C8512EF8A8E3B8 /* Dictionary+SwiftInstagram.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Dictionary+SwiftInstagram.swift"; path = "Sources/Extensions/Dictionary+SwiftInstagram.swift"; sourceTree = "<group>"; };
+		3B32D6F8CAA861700B359F8A09FDCB13 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3CF983BD43573BC6185CBD50745D474A /* InstagramTag.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InstagramTag.swift; path = Sources/Models/InstagramTag.swift; sourceTree = "<group>"; };
+		405FFCC627D63A5C8EED744B986B99B0 /* InstagramResponse.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InstagramResponse.swift; path = Sources/Models/InstagramResponse.swift; sourceTree = "<group>"; };
+		45A10F6CB96669EEBE5AA4AE0F27F501 /* SwiftInstagram-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftInstagram-dummy.m"; sourceTree = "<group>"; };
+		4627D19EA70008A70566D01B31CB4B66 /* SwiftInstagram-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftInstagram-umbrella.h"; sourceTree = "<group>"; };
+		50E02170EC56DEB95A0E0B95815E0AEC /* SwiftInstagram-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftInstagram-prefix.pch"; sourceTree = "<group>"; };
+		51C449C09E6D8211297D2ADFC76B5492 /* Pods-FrickImpactAcademy-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FrickImpactAcademy-dummy.m"; sourceTree = "<group>"; };
+		5349122F2958CF83331251406888F176 /* Pods-FrickImpactAcademy.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FrickImpactAcademy.modulemap"; sourceTree = "<group>"; };
+		5459F6107395C04B50BDFB4BB890A284 /* InstagramError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InstagramError.swift; path = Sources/Models/InstagramError.swift; sourceTree = "<group>"; };
+		5516B567018F907CCEC850464B84F86E /* Pods-FrickImpactAcademy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FrickImpactAcademy.release.xcconfig"; sourceTree = "<group>"; };
+		59F760CDEB68A960E4267FDEA581533E /* InstagramComment.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InstagramComment.swift; path = Sources/Models/InstagramComment.swift; sourceTree = "<group>"; };
+		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		5C388118B8A867977689685945D20607 /* Pods-FrickImpactAcademy-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FrickImpactAcademy-umbrella.h"; sourceTree = "<group>"; };
+		5EEECD67877547482FCACC81FE2E4CB1 /* InstagramUser.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InstagramUser.swift; path = Sources/Models/InstagramUser.swift; sourceTree = "<group>"; };
+		72E9DC0D32FA138583A43B70E0CA70E7 /* URL+SwiftInstagram.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "URL+SwiftInstagram.swift"; path = "Sources/Extensions/URL+SwiftInstagram.swift"; sourceTree = "<group>"; };
+		7D50DCD24A78DEF95309464FBF46A10B /* Pods_FrickImpactAcademy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FrickImpactAcademy.framework; path = "Pods-FrickImpactAcademy.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7DD3DFAB93B367B7CE7D352414031B2A /* Tags.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Tags.swift; path = Sources/Endpoints/Tags.swift; sourceTree = "<group>"; };
+		870B5B25E4BE092CAE645810C6F2783C /* KeychainSwiftDistrib.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KeychainSwiftDistrib.swift; path = Sources/Helpers/KeychainSwiftDistrib.swift; sourceTree = "<group>"; };
+		8736D36E3463B3A76E55AAF4A4FD21EB /* Pods-FrickImpactAcademy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FrickImpactAcademy.debug.xcconfig"; sourceTree = "<group>"; };
+		8C7C08AABF9095F154313E01D560401D /* InstagramLoginViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InstagramLoginViewController.swift; path = Sources/Views/InstagramLoginViewController.swift; sourceTree = "<group>"; };
+		8F663B530A1A4688ACC3B40CD9DA7348 /* Relationships.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Relationships.swift; path = Sources/Endpoints/Relationships.swift; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		96DE222DE413BDFDBA6170A07CC97B8D /* GoogleToolboxForMac-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GoogleToolboxForMac-prefix.pch"; sourceTree = "<group>"; };
-		9A8C469BE8921665EB7132FA470E3A23 /* Pods-FrickImpactAcademy-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FrickImpactAcademy-acknowledgements.plist"; sourceTree = "<group>"; };
-		A110B8C764457C34C42027EEB7708921 /* Pods-FrickImpactAcademy-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FrickImpactAcademy-umbrella.h"; sourceTree = "<group>"; };
-		AA70056BAD8EA3D683367B686F1E6B09 /* pb_decode.c */ = {isa = PBXFileReference; includeInIndex = 1; path = pb_decode.c; sourceTree = "<group>"; };
-		AF577CB3FB3CA827E64E6F3625F4804A /* pb_encode.c */ = {isa = PBXFileReference; includeInIndex = 1; path = pb_encode.c; sourceTree = "<group>"; };
-		BEFCF1CDA7C62ED440C8DDEC07C8B1F8 /* FirebaseAnalytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseAnalytics.framework; path = Frameworks/FirebaseAnalytics.framework; sourceTree = "<group>"; };
-		BF1A6257C603208E8F69C1551B338D30 /* nanopb.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = nanopb.modulemap; sourceTree = "<group>"; };
-		CB1DA5FCB6FC9EDA0D22883C685735B5 /* pb_common.c */ = {isa = PBXFileReference; includeInIndex = 1; path = pb_common.c; sourceTree = "<group>"; };
-		CBCCA266EE1E30AC93A812A107A1C756 /* Pods-FrickImpactAcademy-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FrickImpactAcademy-resources.sh"; sourceTree = "<group>"; };
-		D61D0D5052323E3EFCC00D50407A865E /* GoogleToolboxForMac.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GoogleToolboxForMac.xcconfig; sourceTree = "<group>"; };
-		DCA78484FB8610C19786391BB86F2C28 /* nanopb.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = nanopb.framework; path = nanopb.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		DD2EE2CB5476692B784D8D96D52D2345 /* Pods_FrickImpactAcademy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FrickImpactAcademy.framework; path = "Pods-FrickImpactAcademy.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		DD9E8F12766FD7202402AD690FB605B6 /* pb_encode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = pb_encode.h; sourceTree = "<group>"; };
-		E659260E0916AB51199ACB8A25694DB6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EA772F7A06348F33C61B7286F52EEF50 /* GTMNSData+zlib.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "GTMNSData+zlib.h"; path = "Foundation/GTMNSData+zlib.h"; sourceTree = "<group>"; };
-		F6156B8D6D3DD90AEE4394E6A26A89FE /* GTMNSData+zlib.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "GTMNSData+zlib.m"; path = "Foundation/GTMNSData+zlib.m"; sourceTree = "<group>"; };
-		FDBD63BFFF2AC1DF4822BB960B9FB88F /* Pods-FrickImpactAcademy-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FrickImpactAcademy-dummy.m"; sourceTree = "<group>"; };
-		FF6F39ECB24CE5CFAA775B1CC1E891D9 /* nanopb-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "nanopb-umbrella.h"; sourceTree = "<group>"; };
+		950374889F692E2C9FC901C44F431BC7 /* Pods-FrickImpactAcademy-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FrickImpactAcademy-resources.sh"; sourceTree = "<group>"; };
+		9E3EA29F8ED0420088E9D580E96F5E0F /* InstagramLocation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InstagramLocation.swift; path = Sources/Models/InstagramLocation.swift; sourceTree = "<group>"; };
+		A0D081A4BF2C927FE77599076679B292 /* Media.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Media.swift; path = Sources/Endpoints/Media.swift; sourceTree = "<group>"; };
+		A1EA7EF7441B7B98A25B7E88A6DA7409 /* Pods-FrickImpactAcademy-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FrickImpactAcademy-acknowledgements.plist"; sourceTree = "<group>"; };
+		AB9A74F984A77EADD1AF2EB353B43A4B /* InstagramScope.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InstagramScope.swift; path = Sources/InstagramScope.swift; sourceTree = "<group>"; };
+		ABFAFE0117CC56867FEE50547A7CBE9A /* Optional+SwiftInstagram.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Optional+SwiftInstagram.swift"; path = "Sources/Extensions/Optional+SwiftInstagram.swift"; sourceTree = "<group>"; };
+		C3DE4CBDEA7D62688A0A6BB7BD2D699A /* InstagramRelationship.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InstagramRelationship.swift; path = Sources/Models/InstagramRelationship.swift; sourceTree = "<group>"; };
+		CAC9E692AC5EA37E1D55A11A86791128 /* Pods-FrickImpactAcademy-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FrickImpactAcademy-frameworks.sh"; sourceTree = "<group>"; };
+		CBE3BF0F05A7664F1F42C695F80F9B47 /* Array+SwiftInstagram.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Array+SwiftInstagram.swift"; path = "Sources/Extensions/Array+SwiftInstagram.swift"; sourceTree = "<group>"; };
+		D1183E03AE537EADBF0C944414A6FF66 /* Users.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Users.swift; path = Sources/Endpoints/Users.swift; sourceTree = "<group>"; };
+		D29A7172B6F19602D1749A7A3BC3C726 /* SwiftInstagram.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftInstagram.xcconfig; sourceTree = "<group>"; };
+		E1B8940C6D2BAB0448B746CA3C4978EB /* Data+SwiftInstagram.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Data+SwiftInstagram.swift"; path = "Sources/Extensions/Data+SwiftInstagram.swift"; sourceTree = "<group>"; };
+		ED19F41C74969776DE6FEB23624D8F11 /* InstagramMedia.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InstagramMedia.swift; path = Sources/Models/InstagramMedia.swift; sourceTree = "<group>"; };
+		F512787EC210F96F4C2F104D9BB9B2F0 /* Locations.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Locations.swift; path = Sources/Endpoints/Locations.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		971041836592E28ADEEDA495A96A62A2 /* Frameworks */ = {
+		72E29D21CE9AE4A9E21DFD166532B2CF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				05B1F02560378D28FEBD4E8F6D293216 /* Foundation.framework in Frameworks */,
+				6AC13635F7295C32E17933AE08635163 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C0B94CBF3DC7316705A2BF4EBEB28F03 /* Frameworks */ = {
+		EB2FAD60DD7C052D6FD6DBB4C494E084 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D519FA90904533723040A90455C62032 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F9BC43EEAF05BCB201B3D28C244AA7E1 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				93D51748565CFEB9490FBA7DA993C5C0 /* Foundation.framework in Frameworks */,
+				455A3240631C52EFD8AD958BA5747467 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		26AC2BCD6590CC43B9201B747C0D96A3 /* nanopb */ = {
+		1E5A98048DC2CE31FF9DDF3945AED590 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				76AFAA5C3128F2005ADECFD36E2085DC /* pb.h */,
-				CB1DA5FCB6FC9EDA0D22883C685735B5 /* pb_common.c */,
-				841E491E4F984559D8FACA8D9B180DBA /* pb_common.h */,
-				AA70056BAD8EA3D683367B686F1E6B09 /* pb_decode.c */,
-				7E3E28FC93E46C4778C303626C7CA9AB /* pb_decode.h */,
-				AF577CB3FB3CA827E64E6F3625F4804A /* pb_encode.c */,
-				DD9E8F12766FD7202402AD690FB605B6 /* pb_encode.h */,
-				65E3046628F4D647CEAAF43F67601B15 /* decode */,
-				DDAA44E2142E64238AC963E5FEE6F255 /* encode */,
-				E2263F271769C0C11030EBFC54582B2D /* Support Files */,
+				7D50DCD24A78DEF95309464FBF46A10B /* Pods_FrickImpactAcademy.framework */,
+				1FD33B5580F57C041E3C319027EBDEF3 /* SwiftInstagram.framework */,
 			);
-			name = nanopb;
-			path = nanopb;
-			sourceTree = "<group>";
-		};
-		35B180DE65DF96286E579D4B71276075 /* FirebaseInstanceID */ = {
-			isa = PBXGroup;
-			children = (
-				9423BF591DA4C65CAEC62D1E98DA477F /* Frameworks */,
-			);
-			name = FirebaseInstanceID;
-			path = FirebaseInstanceID;
-			sourceTree = "<group>";
-		};
-		47E42F7301DFDDB7D62E990526701C4F /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				BEFCF1CDA7C62ED440C8DDEC07C8B1F8 /* FirebaseAnalytics.framework */,
-				72224E5E74EFE503C6A1CDE6753CE582 /* FirebaseCoreDiagnostics.framework */,
-				17D7CB4E265F749ED7EE6CE6809DDEF8 /* FirebaseNanoPB.framework */,
-			);
-			name = Frameworks;
+			name = Products;
 			sourceTree = "<group>";
 		};
 		54E646F3B5C969280662CC5911FF8E31 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				FE6C75A886D5CFF8F40DE9D98FC32A8F /* Pods-FrickImpactAcademy */,
+				970B2772FB15DBB7D3B2C672E19DE726 /* Pods-FrickImpactAcademy */,
 			);
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		65E3046628F4D647CEAAF43F67601B15 /* decode */ = {
+		5E0D919E635D23B70123790B8308F8EF /* iOS */ = {
 			isa = PBXGroup;
 			children = (
+				5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */,
 			);
-			name = decode;
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		68472651F7683FF944000A598774F88C /* SwiftInstagram */ = {
+			isa = PBXGroup;
+			children = (
+				7BD13335F4D10ECAFC072EBFB01224B4 /* Core */,
+				B7A9E91E285631C26A974D7ED13DC29E /* Support Files */,
+			);
+			name = SwiftInstagram;
+			path = SwiftInstagram;
+			sourceTree = "<group>";
+		};
+		7BD13335F4D10ECAFC072EBFB01224B4 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				CBE3BF0F05A7664F1F42C695F80F9B47 /* Array+SwiftInstagram.swift */,
+				2B7CEC94E35675982F345EEAC558A72F /* Comments.swift */,
+				E1B8940C6D2BAB0448B746CA3C4978EB /* Data+SwiftInstagram.swift */,
+				31A1986B5C10A59919C8512EF8A8E3B8 /* Dictionary+SwiftInstagram.swift */,
+				20CAF73206390EABD283AF93DC8B9DFD /* Instagram.swift */,
+				59F760CDEB68A960E4267FDEA581533E /* InstagramComment.swift */,
+				5459F6107395C04B50BDFB4BB890A284 /* InstagramError.swift */,
+				9E3EA29F8ED0420088E9D580E96F5E0F /* InstagramLocation.swift */,
+				8C7C08AABF9095F154313E01D560401D /* InstagramLoginViewController.swift */,
+				ED19F41C74969776DE6FEB23624D8F11 /* InstagramMedia.swift */,
+				C3DE4CBDEA7D62688A0A6BB7BD2D699A /* InstagramRelationship.swift */,
+				405FFCC627D63A5C8EED744B986B99B0 /* InstagramResponse.swift */,
+				AB9A74F984A77EADD1AF2EB353B43A4B /* InstagramScope.swift */,
+				3CF983BD43573BC6185CBD50745D474A /* InstagramTag.swift */,
+				5EEECD67877547482FCACC81FE2E4CB1 /* InstagramUser.swift */,
+				870B5B25E4BE092CAE645810C6F2783C /* KeychainSwiftDistrib.swift */,
+				27C2EC661758ADF057FF02E5DE7E21EE /* Likes.swift */,
+				F512787EC210F96F4C2F104D9BB9B2F0 /* Locations.swift */,
+				A0D081A4BF2C927FE77599076679B292 /* Media.swift */,
+				ABFAFE0117CC56867FEE50547A7CBE9A /* Optional+SwiftInstagram.swift */,
+				8F663B530A1A4688ACC3B40CD9DA7348 /* Relationships.swift */,
+				7DD3DFAB93B367B7CE7D352414031B2A /* Tags.swift */,
+				72E9DC0D32FA138583A43B70E0CA70E7 /* URL+SwiftInstagram.swift */,
+				D1183E03AE537EADBF0C944414A6FF66 /* Users.swift */,
+			);
+			name = Core;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -176,270 +187,115 @@
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				D20196F804763B3817DC669C74EEB701 /* Pods */,
-				B296BF89DF8E540AEADC252850CA4B32 /* Products */,
+				E3552806942FC55343978980D9F541EB /* Pods */,
+				1E5A98048DC2CE31FF9DDF3945AED590 /* Products */,
 				54E646F3B5C969280662CC5911FF8E31 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		7FE25D69C3023269B595924C6F0132A8 /* Core */ = {
+		970B2772FB15DBB7D3B2C672E19DE726 /* Pods-FrickImpactAcademy */ = {
 			isa = PBXGroup;
 			children = (
-				5781526AD437A00C4907E175A1F9B824 /* Firebase.h */,
-			);
-			name = Core;
-			sourceTree = "<group>";
-		};
-		9423BF591DA4C65CAEC62D1E98DA477F /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				5857319B3AF21174742939162D58FA56 /* FirebaseInstanceID.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		A31CE44F23BD44F7DAAFB31F03A5A658 /* NSData+zlib */ = {
-			isa = PBXGroup;
-			children = (
-				EA772F7A06348F33C61B7286F52EEF50 /* GTMNSData+zlib.h */,
-				F6156B8D6D3DD90AEE4394E6A26A89FE /* GTMNSData+zlib.m */,
-			);
-			name = "NSData+zlib";
-			sourceTree = "<group>";
-		};
-		B248CDB646D7C75A266CD3110AF1E8FD /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				091F352BA24FAFD2BD8E68862CF2B4ED /* FirebaseCore.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		B296BF89DF8E540AEADC252850CA4B32 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				54FD291AE087975C07B620963FFBB3B8 /* GoogleToolboxForMac.framework */,
-				DCA78484FB8610C19786391BB86F2C28 /* nanopb.framework */,
-				DD2EE2CB5476692B784D8D96D52D2345 /* Pods_FrickImpactAcademy.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		B4734D8A8CDAA68947A536FB69B4D49D /* FirebaseAnalytics */ = {
-			isa = PBXGroup;
-			children = (
-				47E42F7301DFDDB7D62E990526701C4F /* Frameworks */,
-			);
-			name = FirebaseAnalytics;
-			path = FirebaseAnalytics;
-			sourceTree = "<group>";
-		};
-		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		D20196F804763B3817DC669C74EEB701 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				D52BBEEEDDC743540AC81A7F5CC6B0D4 /* Firebase */,
-				B4734D8A8CDAA68947A536FB69B4D49D /* FirebaseAnalytics */,
-				D8856D6AF1AC0D9E66ECF90F73BAA7F3 /* FirebaseCore */,
-				35B180DE65DF96286E579D4B71276075 /* FirebaseInstanceID */,
-				FF8C567B4D0A26B622469EC328AEB1EF /* GoogleToolboxForMac */,
-				26AC2BCD6590CC43B9201B747C0D96A3 /* nanopb */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		D52BBEEEDDC743540AC81A7F5CC6B0D4 /* Firebase */ = {
-			isa = PBXGroup;
-			children = (
-				7FE25D69C3023269B595924C6F0132A8 /* Core */,
-			);
-			name = Firebase;
-			path = Firebase;
-			sourceTree = "<group>";
-		};
-		D8856D6AF1AC0D9E66ECF90F73BAA7F3 /* FirebaseCore */ = {
-			isa = PBXGroup;
-			children = (
-				B248CDB646D7C75A266CD3110AF1E8FD /* Frameworks */,
-			);
-			name = FirebaseCore;
-			path = FirebaseCore;
-			sourceTree = "<group>";
-		};
-		DDAA44E2142E64238AC963E5FEE6F255 /* encode */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = encode;
-			sourceTree = "<group>";
-		};
-		E2263F271769C0C11030EBFC54582B2D /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				56CAA223ED48671D00B612679A4CFF93 /* Info.plist */,
-				BF1A6257C603208E8F69C1551B338D30 /* nanopb.modulemap */,
-				8F0A0B2F788848A43580C8F3FBBA24D7 /* nanopb.xcconfig */,
-				4C9CF7FC5E92D31F27BC038941EA6A5A /* nanopb-dummy.m */,
-				4B7236B9B35B25C377B145591377CCD7 /* nanopb-prefix.pch */,
-				FF6F39ECB24CE5CFAA775B1CC1E891D9 /* nanopb-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/nanopb";
-			sourceTree = "<group>";
-		};
-		E91EC75B28AD480FFDC1E0CB5FE25045 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				5ACADB9EF2837349C2A5F44E67B33B53 /* GoogleToolboxForMac.modulemap */,
-				D61D0D5052323E3EFCC00D50407A865E /* GoogleToolboxForMac.xcconfig */,
-				505C5F864762B7FE38AA845332172DE9 /* GoogleToolboxForMac-dummy.m */,
-				96DE222DE413BDFDBA6170A07CC97B8D /* GoogleToolboxForMac-prefix.pch */,
-				7B9DDF1EF2BBAE154BC6081D24CB6369 /* GoogleToolboxForMac-umbrella.h */,
-				E659260E0916AB51199ACB8A25694DB6 /* Info.plist */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/GoogleToolboxForMac";
-			sourceTree = "<group>";
-		};
-		FDFA9160E6192D29983621263A722A0D /* Defines */ = {
-			isa = PBXGroup;
-			children = (
-				4E042612013FB6CD86A7F8229AA61BE1 /* GTMDefines.h */,
-			);
-			name = Defines;
-			sourceTree = "<group>";
-		};
-		FE6C75A886D5CFF8F40DE9D98FC32A8F /* Pods-FrickImpactAcademy */ = {
-			isa = PBXGroup;
-			children = (
-				6B5A15C6296CA74BB8898A6787F49B3A /* Info.plist */,
-				159F2B005BCB27F8F1425CD945AEB88B /* Pods-FrickImpactAcademy.modulemap */,
-				7181A9462C3874418C47A2B1FEF8DEB5 /* Pods-FrickImpactAcademy-acknowledgements.markdown */,
-				9A8C469BE8921665EB7132FA470E3A23 /* Pods-FrickImpactAcademy-acknowledgements.plist */,
-				FDBD63BFFF2AC1DF4822BB960B9FB88F /* Pods-FrickImpactAcademy-dummy.m */,
-				37E4869531479B2110E54EE0AC03AF43 /* Pods-FrickImpactAcademy-frameworks.sh */,
-				CBCCA266EE1E30AC93A812A107A1C756 /* Pods-FrickImpactAcademy-resources.sh */,
-				A110B8C764457C34C42027EEB7708921 /* Pods-FrickImpactAcademy-umbrella.h */,
-				4F8BB587F5B87CAB1B65171108DC85D5 /* Pods-FrickImpactAcademy.debug.xcconfig */,
-				890C0841220393CFA2700473F72E3E03 /* Pods-FrickImpactAcademy.release.xcconfig */,
+				3B32D6F8CAA861700B359F8A09FDCB13 /* Info.plist */,
+				5349122F2958CF83331251406888F176 /* Pods-FrickImpactAcademy.modulemap */,
+				07731B7AABFED8810334AFCEF952862D /* Pods-FrickImpactAcademy-acknowledgements.markdown */,
+				A1EA7EF7441B7B98A25B7E88A6DA7409 /* Pods-FrickImpactAcademy-acknowledgements.plist */,
+				51C449C09E6D8211297D2ADFC76B5492 /* Pods-FrickImpactAcademy-dummy.m */,
+				CAC9E692AC5EA37E1D55A11A86791128 /* Pods-FrickImpactAcademy-frameworks.sh */,
+				950374889F692E2C9FC901C44F431BC7 /* Pods-FrickImpactAcademy-resources.sh */,
+				5C388118B8A867977689685945D20607 /* Pods-FrickImpactAcademy-umbrella.h */,
+				8736D36E3463B3A76E55AAF4A4FD21EB /* Pods-FrickImpactAcademy.debug.xcconfig */,
+				5516B567018F907CCEC850464B84F86E /* Pods-FrickImpactAcademy.release.xcconfig */,
 			);
 			name = "Pods-FrickImpactAcademy";
 			path = "Target Support Files/Pods-FrickImpactAcademy";
 			sourceTree = "<group>";
 		};
-		FF8C567B4D0A26B622469EC328AEB1EF /* GoogleToolboxForMac */ = {
+		B7A9E91E285631C26A974D7ED13DC29E /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				FDFA9160E6192D29983621263A722A0D /* Defines */,
-				A31CE44F23BD44F7DAAFB31F03A5A658 /* NSData+zlib */,
-				E91EC75B28AD480FFDC1E0CB5FE25045 /* Support Files */,
+				0C828B7BD594713EF06B0000EA1B8B84 /* Info.plist */,
+				24A123CD29F01C918B26226BBA9171FF /* SwiftInstagram.modulemap */,
+				D29A7172B6F19602D1749A7A3BC3C726 /* SwiftInstagram.xcconfig */,
+				45A10F6CB96669EEBE5AA4AE0F27F501 /* SwiftInstagram-dummy.m */,
+				50E02170EC56DEB95A0E0B95815E0AEC /* SwiftInstagram-prefix.pch */,
+				4627D19EA70008A70566D01B31CB4B66 /* SwiftInstagram-umbrella.h */,
 			);
-			name = GoogleToolboxForMac;
-			path = GoogleToolboxForMac;
+			name = "Support Files";
+			path = "../Target Support Files/SwiftInstagram";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5E0D919E635D23B70123790B8308F8EF /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E3552806942FC55343978980D9F541EB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				68472651F7683FF944000A598774F88C /* SwiftInstagram */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		4547B9AF8085A499AA35614798F8F9E4 /* Headers */ = {
+		27007311366449917962AA557234978F /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F9D92BA503505CB48EF4ECF0DDF57686 /* nanopb-umbrella.h in Headers */,
-				392F2CF142BAA751AC1BB61D8B757D98 /* pb.h in Headers */,
-				806BAA4E00218D70995697C4400BE7A0 /* pb_common.h in Headers */,
-				29FEADDF2086FDEA7D5BA87DD23B08C6 /* pb_decode.h in Headers */,
-				E181395E73163EB702FCE9A21403D67B /* pb_encode.h in Headers */,
+				2EA1A9BF0F2359F9CF2D0AB7C77F793C /* Pods-FrickImpactAcademy-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		956D22B25E0348076D1B8FBDEA6F3790 /* Headers */ = {
+		B3BF8EEC2D3BC5E398EB190F4A154771 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FCE39F041FC3D971CED24E9BA5578E0D /* Pods-FrickImpactAcademy-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FDA600FDC48ED17BA03DA2D85D4EDA97 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				81E4B6988FF26F9249B79C6C8CC667B4 /* GoogleToolboxForMac-umbrella.h in Headers */,
-				541C5362289CC44D4F067D097F231250 /* GTMDefines.h in Headers */,
-				DBFECCB0BBE3F11CC41A3C1A8C4879D3 /* GTMNSData+zlib.h in Headers */,
+				09BCCD965298D52A6896299B91CB2610 /* SwiftInstagram-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		00103D6C821BE85971C563025527BA5D /* GoogleToolboxForMac */ = {
+		99295E82C5745BA367C58F0C7857C4ED /* SwiftInstagram */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C43D9CA5106C6CCEF973B7EDF833947B /* Build configuration list for PBXNativeTarget "GoogleToolboxForMac" */;
+			buildConfigurationList = 47242AF935ADB26AEA7A91763B870D96 /* Build configuration list for PBXNativeTarget "SwiftInstagram" */;
 			buildPhases = (
-				63D7DA997053F6B5D01DE8CB5817CB51 /* Sources */,
-				F9BC43EEAF05BCB201B3D28C244AA7E1 /* Frameworks */,
-				FDA600FDC48ED17BA03DA2D85D4EDA97 /* Headers */,
+				EC99CFA87EB645C7F6D2B6FC7340B67E /* Sources */,
+				EB2FAD60DD7C052D6FD6DBB4C494E084 /* Frameworks */,
+				B3BF8EEC2D3BC5E398EB190F4A154771 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = GoogleToolboxForMac;
-			productName = GoogleToolboxForMac;
-			productReference = 54FD291AE087975C07B620963FFBB3B8 /* GoogleToolboxForMac.framework */;
+			name = SwiftInstagram;
+			productName = SwiftInstagram;
+			productReference = 1FD33B5580F57C041E3C319027EBDEF3 /* SwiftInstagram.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		6EFF0156D7D1711F9E0BA452E760E356 /* Pods-FrickImpactAcademy */ = {
+		FEFC34E4D37680C83DF0B1160D3BC001 /* Pods-FrickImpactAcademy */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 587CE7D8BDC457BFD9090532DF6A5866 /* Build configuration list for PBXNativeTarget "Pods-FrickImpactAcademy" */;
+			buildConfigurationList = 2DB1071239B4225F172C6ED899A4AA1B /* Build configuration list for PBXNativeTarget "Pods-FrickImpactAcademy" */;
 			buildPhases = (
-				9C5F3E688C707F0F8CE69736AA2E4E99 /* Sources */,
-				C0B94CBF3DC7316705A2BF4EBEB28F03 /* Frameworks */,
-				956D22B25E0348076D1B8FBDEA6F3790 /* Headers */,
+				9475B8B1DADB1BF6129566177A9EEAB0 /* Sources */,
+				72E29D21CE9AE4A9E21DFD166532B2CF /* Frameworks */,
+				27007311366449917962AA557234978F /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				A234012B57E172FCDF896620033345CC /* PBXTargetDependency */,
-				C3F2A28182425CD73334316BC98F6421 /* PBXTargetDependency */,
+				96C0253EFEB9C4CA940B27A3599601A5 /* PBXTargetDependency */,
 			);
 			name = "Pods-FrickImpactAcademy";
 			productName = "Pods-FrickImpactAcademy";
-			productReference = DD2EE2CB5476692B784D8D96D52D2345 /* Pods_FrickImpactAcademy.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		E4DD95323C54A78F879DAB0F1508B8E7 /* nanopb */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = F118B0FA84AC9116AB2E480C302C3999 /* Build configuration list for PBXNativeTarget "nanopb" */;
-			buildPhases = (
-				238527BE8D494586023F2A2B8A60D242 /* Sources */,
-				971041836592E28ADEEDA495A96A62A2 /* Frameworks */,
-				4547B9AF8085A499AA35614798F8F9E4 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = nanopb;
-			productName = nanopb;
-			productReference = DCA78484FB8610C19786391BB86F2C28 /* nanopb.framework */;
+			productReference = 7D50DCD24A78DEF95309464FBF46A10B /* Pods_FrickImpactAcademy.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -448,8 +304,8 @@
 		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0830;
-				LastUpgradeCheck = 0700;
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -459,159 +315,70 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = B296BF89DF8E540AEADC252850CA4B32 /* Products */;
+			productRefGroup = 1E5A98048DC2CE31FF9DDF3945AED590 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				00103D6C821BE85971C563025527BA5D /* GoogleToolboxForMac */,
-				E4DD95323C54A78F879DAB0F1508B8E7 /* nanopb */,
-				6EFF0156D7D1711F9E0BA452E760E356 /* Pods-FrickImpactAcademy */,
+				FEFC34E4D37680C83DF0B1160D3BC001 /* Pods-FrickImpactAcademy */,
+				99295E82C5745BA367C58F0C7857C4ED /* SwiftInstagram */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		238527BE8D494586023F2A2B8A60D242 /* Sources */ = {
+		9475B8B1DADB1BF6129566177A9EEAB0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				468DFD90B6C4DA2F7CFA0C1C89F1B615 /* nanopb-dummy.m in Sources */,
-				3A50F5C8ECED9627F2EBD97F61BD376D /* pb_common.c in Sources */,
-				54F580BF4588159D6A61F21D15591805 /* pb_decode.c in Sources */,
-				55D8D5D912CFD2F3584E4553C2EAD734 /* pb_encode.c in Sources */,
+				2DC38E4943ED30DB98F847947E4E7103 /* Pods-FrickImpactAcademy-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		63D7DA997053F6B5D01DE8CB5817CB51 /* Sources */ = {
+		EC99CFA87EB645C7F6D2B6FC7340B67E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FAC3F3CAABA60EF76069431C5BB5032A /* GoogleToolboxForMac-dummy.m in Sources */,
-				F7D889906DECB078EAAECB9D4A320E9C /* GTMNSData+zlib.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9C5F3E688C707F0F8CE69736AA2E4E99 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				1E1310D8C8ED631D91C17EC5AA236144 /* Pods-FrickImpactAcademy-dummy.m in Sources */,
+				6E13F193B257E862DB5F2950AE20812F /* Array+SwiftInstagram.swift in Sources */,
+				003D6D87C300857EDB394D6F99B6B1EE /* Comments.swift in Sources */,
+				49914CF9471929952D73345ED52315F9 /* Data+SwiftInstagram.swift in Sources */,
+				EFC024292B87D346693B43DDDDC100AD /* Dictionary+SwiftInstagram.swift in Sources */,
+				9750FBEE99B511C885A807BAC7B0844D /* Instagram.swift in Sources */,
+				EB8D212536256D6BCF0D4B4CFA14A9CC /* InstagramComment.swift in Sources */,
+				C16099223046944BA62BA1F6B4C47EFC /* InstagramError.swift in Sources */,
+				0CCF19A2C73056010D6F5DD8918BBCAE /* InstagramLocation.swift in Sources */,
+				E3062734151054971FBAB0D41A212AF4 /* InstagramLoginViewController.swift in Sources */,
+				065D10C8E305EDF3C08575671D7C24AF /* InstagramMedia.swift in Sources */,
+				71DC60F2664DB7825DBFAA470D1455F0 /* InstagramRelationship.swift in Sources */,
+				BB30EC17ED08D1B17FF20D7C9232B81A /* InstagramResponse.swift in Sources */,
+				602BB51780B926186DA6CDE7D796EB29 /* InstagramScope.swift in Sources */,
+				352183C8C3A30B54E81C651984B48D41 /* InstagramTag.swift in Sources */,
+				7FBCB21024B39231185875C833811DE1 /* InstagramUser.swift in Sources */,
+				1FD1DA31003107112AF27CF674233ECE /* KeychainSwiftDistrib.swift in Sources */,
+				CA0E6AEB1ABCC65DE33E5EA8B59A323C /* Likes.swift in Sources */,
+				BCE724293B85AF3C826BD115815F7BCA /* Locations.swift in Sources */,
+				58D9E152901220E376EE0E08CC3E1304 /* Media.swift in Sources */,
+				33CEA5C941EDD03D14459B50DC1CBC23 /* Optional+SwiftInstagram.swift in Sources */,
+				2035A024D32FAA980F9E345B1CB31B55 /* Relationships.swift in Sources */,
+				72D8C50AEF971A27E7D40EE3855F445D /* SwiftInstagram-dummy.m in Sources */,
+				6E3DEA3702C8589C7F74B62E020BB7C5 /* Tags.swift in Sources */,
+				27C07D02D58AD01F0CE99F8458040054 /* URL+SwiftInstagram.swift in Sources */,
+				B41BD8C924E2EC03BE0C8352AF9921BD /* Users.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		A234012B57E172FCDF896620033345CC /* PBXTargetDependency */ = {
+		96C0253EFEB9C4CA940B27A3599601A5 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = GoogleToolboxForMac;
-			target = 00103D6C821BE85971C563025527BA5D /* GoogleToolboxForMac */;
-			targetProxy = C3B94BD570A44FF9521FFC1946D29D06 /* PBXContainerItemProxy */;
-		};
-		C3F2A28182425CD73334316BC98F6421 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = nanopb;
-			target = E4DD95323C54A78F879DAB0F1508B8E7 /* nanopb */;
-			targetProxy = FAE877130CC203A88D91001B31A7069A /* PBXContainerItemProxy */;
+			name = SwiftInstagram;
+			target = 99295E82C5745BA367C58F0C7857C4ED /* SwiftInstagram */;
+			targetProxy = 52C560BF5096870F4597BF52F751808E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		15C069F155AD7CFEFD1E42E043D24C9F /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8F0A0B2F788848A43580C8F3FBBA24D7 /* nanopb.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/nanopb/nanopb-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/nanopb/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/nanopb/nanopb.modulemap";
-				PRODUCT_NAME = nanopb;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		3645B6441676002E9AF242F6DD125314 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4F8BB587F5B87CAB1B65171108DC85D5 /* Pods-FrickImpactAcademy.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-FrickImpactAcademy/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-FrickImpactAcademy/Pods-FrickImpactAcademy.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_FrickImpactAcademy;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		4FD46B2551582DF47CD95CD77DDF6B34 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D61D0D5052323E3EFCC00D50407A865E /* GoogleToolboxForMac.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/GoogleToolboxForMac/GoogleToolboxForMac-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/GoogleToolboxForMac/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/GoogleToolboxForMac/GoogleToolboxForMac.modulemap";
-				PRODUCT_NAME = GoogleToolboxForMac;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		7C07ED8089F70A31B83996A8910D7F18 /* Debug */ = {
+		553022A828EE1991F07D2D73F565AEF8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -621,10 +388,12 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -632,6 +401,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -640,6 +410,7 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
 				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
@@ -664,14 +435,13 @@
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
 		};
-		98F29E7567052F62660DDD7069ADF73C /* Release */ = {
+		58CE816B060A41D32CEC095441D0E3E0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -681,10 +451,12 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -692,6 +464,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -700,6 +473,7 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
 				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
@@ -720,15 +494,14 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
 		};
-		9B08F59FF51AFF627CB714A7411CD158 /* Debug */ = {
+		8788B1093B4AF3081E775B09BB72C127 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8F0A0B2F788848A43580C8F3FBBA24D7 /* nanopb.xcconfig */;
+			baseConfigurationReference = D29A7172B6F19602D1749A7A3BC3C726 /* SwiftInstagram.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -739,27 +512,32 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/nanopb/nanopb-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/nanopb/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftInstagram/SwiftInstagram-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftInstagram/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/nanopb/nanopb.modulemap";
-				PRODUCT_NAME = nanopb;
+				MODULEMAP_FILE = "Target Support Files/SwiftInstagram/SwiftInstagram.modulemap";
+				PRODUCT_MODULE_NAME = SwiftInstagram;
+				PRODUCT_NAME = SwiftInstagram;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
-		A898D3434D45D168D82D76DAD67B9CF5 /* Release */ = {
+		B05B80759AFD2198B42410684B5DEEF2 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 890C0841220393CFA2700473F72E3E03 /* Pods-FrickImpactAcademy.release.xcconfig */;
+			baseConfigurationReference = 5516B567018F907CCEC850464B84F86E /* Pods-FrickImpactAcademy.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -779,9 +557,10 @@
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_FrickImpactAcademy;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -789,9 +568,45 @@
 			};
 			name = Release;
 		};
-		D19459BBA4D29829D7678D9CDFE01E64 /* Debug */ = {
+		D2D0BD81EBCE307E8826713B69D49B53 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D61D0D5052323E3EFCC00D50407A865E /* GoogleToolboxForMac.xcconfig */;
+			baseConfigurationReference = 8736D36E3463B3A76E55AAF4A4FD21EB /* Pods-FrickImpactAcademy.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FrickImpactAcademy/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FrickImpactAcademy/Pods-FrickImpactAcademy.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E3EABAABD589CA7E4984370796BFF29D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D29A7172B6F19602D1749A7A3BC3C726 /* SwiftInstagram.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -802,16 +617,18 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/GoogleToolboxForMac/GoogleToolboxForMac-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/GoogleToolboxForMac/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftInstagram/SwiftInstagram-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftInstagram/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/GoogleToolboxForMac/GoogleToolboxForMac.modulemap";
-				PRODUCT_NAME = GoogleToolboxForMac;
+				MODULEMAP_FILE = "Target Support Files/SwiftInstagram/SwiftInstagram.modulemap";
+				PRODUCT_MODULE_NAME = SwiftInstagram;
+				PRODUCT_NAME = SwiftInstagram;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
@@ -825,35 +642,26 @@
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7C07ED8089F70A31B83996A8910D7F18 /* Debug */,
-				98F29E7567052F62660DDD7069ADF73C /* Release */,
+				553022A828EE1991F07D2D73F565AEF8 /* Debug */,
+				58CE816B060A41D32CEC095441D0E3E0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		587CE7D8BDC457BFD9090532DF6A5866 /* Build configuration list for PBXNativeTarget "Pods-FrickImpactAcademy" */ = {
+		2DB1071239B4225F172C6ED899A4AA1B /* Build configuration list for PBXNativeTarget "Pods-FrickImpactAcademy" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3645B6441676002E9AF242F6DD125314 /* Debug */,
-				A898D3434D45D168D82D76DAD67B9CF5 /* Release */,
+				D2D0BD81EBCE307E8826713B69D49B53 /* Debug */,
+				B05B80759AFD2198B42410684B5DEEF2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C43D9CA5106C6CCEF973B7EDF833947B /* Build configuration list for PBXNativeTarget "GoogleToolboxForMac" */ = {
+		47242AF935ADB26AEA7A91763B870D96 /* Build configuration list for PBXNativeTarget "SwiftInstagram" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D19459BBA4D29829D7678D9CDFE01E64 /* Debug */,
-				4FD46B2551582DF47CD95CD77DDF6B34 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		F118B0FA84AC9116AB2E480C302C3999 /* Build configuration list for PBXNativeTarget "nanopb" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				9B08F59FF51AFF627CB714A7411CD158 /* Debug */,
-				15C069F155AD7CFEFD1E42E043D24C9F /* Release */,
+				E3EABAABD589CA7E4984370796BFF29D /* Debug */,
+				8788B1093B4AF3081E775B09BB72C127 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

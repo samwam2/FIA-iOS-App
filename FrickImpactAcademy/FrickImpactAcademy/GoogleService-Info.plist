@@ -7,21 +7,21 @@
 	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
 	<string>ca-app-pub-3940256099942544/4411468910</string>
 	<key>CLIENT_ID</key>
-	<string>528983364351-189cc0kodjh3spastck7ubsket5dvh4m.apps.googleusercontent.com</string>
+	<string>534279686073-4mrqfv72g5b5nrob5fvhe5kbi3josfgk.apps.googleusercontent.com</string>
 	<key>REVERSED_CLIENT_ID</key>
-	<string>com.googleusercontent.apps.528983364351-189cc0kodjh3spastck7ubsket5dvh4m</string>
+	<string>com.googleusercontent.apps.534279686073-4mrqfv72g5b5nrob5fvhe5kbi3josfgk</string>
 	<key>API_KEY</key>
-	<string>AIzaSyAs3LnKJdWRjHaP9lTLhZ7zttOUBgWOGSY</string>
+	<string>AIzaSyCZRu7h50VykmmXnXdkqFCXdsstELcO4Ig</string>
 	<key>GCM_SENDER_ID</key>
-	<string>528983364351</string>
+	<string>534279686073</string>
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
 	<string>samShowalter.FrickImpactAcademy</string>
 	<key>PROJECT_ID</key>
-	<string>emoji-to-text</string>
+	<string>frick-app</string>
 	<key>STORAGE_BUCKET</key>
-	<string>emoji-to-text.appspot.com</string>
+	<string>frick-app.appspot.com</string>
 	<key>IS_ADS_ENABLED</key>
 	<true></true>
 	<key>IS_ANALYTICS_ENABLED</key>
@@ -33,8 +33,8 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true></true>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:528983364351:ios:0e6806cc3362fac0</string>
+	<string>1:534279686073:ios:0e6806cc3362fac0</string>
 	<key>DATABASE_URL</key>
-	<string>https://emoji-to-text.firebaseio.com</string>
+	<string>https://frick-app.firebaseio.com</string>
 </dict>
 </plist>
